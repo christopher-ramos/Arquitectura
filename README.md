@@ -1,2 +1,2 @@
 <H2>INFORME</H2>
-Tutorial de amazon EC2, para generación de máquinas virtuales.
+<img src="img/logo_espe.png"/>
