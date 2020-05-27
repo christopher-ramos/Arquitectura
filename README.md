@@ -14,15 +14,15 @@
 <p align="justify">- Reconocer el nivel de seguridad que posee este servicio.</p>
 <H4>3. ESTADO DEL ARTE</H4>
 <H4>4. MARCO TEORICO</H4>
-Amazon Elastic Compute Cloud proporciona capacidad de computacion escalable en la nube de AWS (Amazon Web Services)
-En el instante de tomar el termino escalable, nos estamos refiriendo a que cada usuario puede contratar lo que desee y configurar su servicio como el quiera, es decir no hay un solo modo de utilizar AWS, sino multiples.
+<p align="justify">Amazon Elastic Compute Cloud proporciona capacidad de computacion escalable en la nube de AWS (Amazon Web Services)
+En el instante de tomar el termino escalable, nos estamos refiriendo a que cada usuario puede contratar lo que desee y configurar su servicio como el quiera, es decir no hay un solo modo de utilizar AWS, sino multiples.</p>
 
-El uso de Amazon EC2 tiene una serie de beneficios, uno de ellos y el mas importante es aquel que elimina la necesidad de invertir en hardware, de tal manera que se puede desarrollar aplicaciones e implementar aplicaciones con mayor rapidez, evitandonos tener que realizar distintos ensambles para mayor velocidad en nuestra maquina virtual, no menos importante tenemos tambien la disponibilidad de lanzar tantos servidores a la necesidad del usuario, en los cuales podemos administrar la seguridad, velocidad y almacenamiento.
+<p align="justify">El uso de Amazon EC2 tiene una serie de beneficios, uno de ellos y el mas importante es aquel que elimina la necesidad de invertir en hardware, de tal manera que se puede desarrollar aplicaciones e implementar aplicaciones con mayor rapidez, evitandonos tener que realizar distintos ensambles para mayor velocidad en nuestra maquina virtual, no menos importante tenemos tambien la disponibilidad de lanzar tantos servidores a la necesidad del usuario, en los cuales podemos administrar la seguridad, velocidad y almacenamiento.</p>
 
-Por parte de las herramientas que brinda Amazon EC2, daremos a conocer una de las principales, las cuales toman el nombre de plantillas preconfiguradas para las instancias, las cuales se conocen como imagenes de maquina de Amazon en las cuales se encuentra todo lo necesario para generar nuestra maquina virtual, incluyendo el sistema operativo y software adicional.
+<p align="justify">Por parte de las herramientas que brinda Amazon EC2, daremos a conocer una de las principales, las cuales toman el nombre de plantillas preconfiguradas para las instancias, las cuales se conocen como imagenes de maquina de Amazon en las cuales se encuentra todo lo necesario para generar nuestra maquina virtual, incluyendo el sistema operativo y software adicional.</p>
 
-Otra herramienta que nos brinda este increible servicio, es re-configurar los tipos de instancias, es decir, configurar el CPU en si, memoria, almacenamiento, capacidad de red.
+<p align="justify">Otra herramienta que nos brinda este increible servicio, es re-configurar los tipos de instancias, es decir, configurar el CPU en si, memoria, almacenamiento, capacidad de red.</p>
 
-Generar una maquina virtual se a facilitado mucho mas para los desarrolladores, sin olvidar la rapidez con la cual pueden crearla, teniendo a su paso precios al alcance del bolsillo del usuario, si bien es cierto, la comparacion del uso de Amazon EC2 a la inversion en hardware vendria a economizar al usuario en gran cantidad, ya que el mantenimiento correria por parte de el servicio, al igual que sus actualizaciones, dando todas las facilidades tanto como de instalacion, manejo y pagos modicos al usuario.
+<p align="justify">Generar una maquina virtual se a facilitado mucho mas para los desarrolladores, sin olvidar la rapidez con la cual pueden crearla, teniendo a su paso precios al alcance del bolsillo del usuario, si bien es cierto, la comparacion del uso de Amazon EC2 a la inversion en hardware vendria a economizar al usuario en gran cantidad, ya que el mantenimiento correria por parte de el servicio, al igual que sus actualizaciones, dando todas las facilidades tanto como de instalacion, manejo y pagos modicos al usuario.</p>
 
-Amazon EC2, tiene un repositorio extenso dentro de su servicio, con variedad de herramientas, S.O., para que el usuario 
+<p align="justify">Amazon EC2, tiene un repositorio extenso dentro de su servicio, con variedad de herramientas, S.O., para que el usuario </p>
