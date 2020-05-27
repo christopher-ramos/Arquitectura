@@ -26,3 +26,16 @@ En el instante de tomar el termino escalable, nos estamos refiriendo a que cada 
 <p align="justify">Generar una maquina virtual se a facilitado mucho mas para los desarrolladores, sin olvidar la rapidez con la cual pueden crearla, teniendo a su paso precios al alcance del bolsillo del usuario, si bien es cierto, la comparacion del uso de Amazon EC2 a la inversion en hardware vendria a economizar al usuario en gran cantidad, ya que el mantenimiento correria por parte de el servicio, al igual que sus actualizaciones, dando todas las facilidades tanto como de instalacion, manejo y pagos modicos al usuario.</p>
 
 <p align="justify">Amazon EC2, tiene un repositorio extenso dentro de su servicio, con variedad de herramientas, S.O., para que el usuario </p>
+<H4>5. DIAGRAMAS</H4>
+<H4>6. LISTA DE COMPONENTES</H4>
+<H4>7. MAPA DE VARIABLES</H4>
+<H4>8. EXPLICACION DEL CODIGO FUENTE</H4>
+<H4>9. DESCRIPCION DE PRERREQUISITOS Y CONFIGURACION</H4>
+<H4>10. APORTACIONES</H4>
+<H4>11. CONCLUSIONES</H4>
+<H4>12. RECOMENDACIONES</H4>
+<H4>13. CRONOGRAMA</H4>
+<H4>14. BIBLIOGRAFIA</H4>
+<H4>15. ANEXOS</H4>
+<H4>15.1 MANUAL DE USUARIO</H4>
+<H4>15.2 HOJAS TECNICAS</H4>
