@@ -15,3 +15,4 @@
 <H4>4. MARCO TEORICO</H4>
 Amazon Elastic Compute Cloud proporciona capacidad de computacion escalable en la nube de AWS (Amazon Web Services)
 En el instante de tomar el termino escalable, nos estamos refiriendo a que cada usuario puede contratar lo que desee y configurar su servicio como el quiera, es decir no hay un solo modo de utilizar AWS, sino multiples.
+
