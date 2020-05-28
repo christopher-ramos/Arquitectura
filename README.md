@@ -35,6 +35,8 @@ En el instante de tomar el termino escalable, nos estamos refiriendo a que cada 
 <p align="justify">Respecto a la seguridad que se tiene en un Cloud Computing Machine, podemos observar que Amazon EC2 a podido cubrir casi todos los agujeros o filtros de seguridad en los que podrian haber ocurrido una serie de incovenientes por parte de terceros. Estos protocolos de seguridad, APIs, tienen que dar efectividad al usuario que su maquina virtual se encuentra segura y tambien brindarle el acceso al usuario para que el pueda modificar parte de la red, direccionamiento, protocolos, licencias de seguridad dentro de su maquina virtual sin ningun peligro. Por ello el servicio tomo ciertas medidas como que la informacion de inicio de secion sea segura para las instancias con pares de claves, es decir, AWS almacena la clave publica y el usuario guarda la clave privada. No obstante Amazon EC2 tiene en cada de las instancias un firewall que permite al usuario especificar los protocolos , los puertos y los rangos de direcciones de IP por medio de grupos de seguridad internos de el servicio.</p>
 
 <H4>5. DIAGRAMAS</H4>
+<img src="img/Diagrama%20%231%20T.I%20%231.png"/>
+
 <H4>6. LISTA DE COMPONENTES</H4>
 <H4>7. MAPA DE VARIABLES</H4>
 <H4>8. EXPLICACION DEL CODIGO FUENTE</H4>
