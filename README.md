@@ -38,7 +38,7 @@ En el instante de tomar el termino escalable, nos estamos refiriendo a que cada 
 <p align="center"><img src="img/Diagrama%20%231.png"/></p>
 
 <H4>6. LISTA DE COMPONENTES</H4>
-<p align="center"><img src="img/Recursos.png"/></p>
+<p align="center"><img src="img/RecursosTI.png"/></p>
 
 <H4>7. MAPA DE VARIABLES</H4>
 <H4>8. EXPLICACION DEL CODIGO FUENTE</H4>
