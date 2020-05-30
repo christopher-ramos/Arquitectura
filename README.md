@@ -68,8 +68,8 @@ En el instante de tomar el termino escalable, nos estamos refiriendo a que cada 
 <b>Tipos de Sistemas operativos</b>
 <p align="justify">- Sistema monoprocesador:  En el sistema monoprocesador existe una sola unidad de procesamiento central (CPU) capaz de ejecutar una serie de instrucciones de índole general.<br><br>
 - Sistemas multiprocesadores: También llamados sistemas paralelos o estrechamente acoplados, los sistemas multiprocesadores tienen dos o más CPU que comparten buses y a veces el reloj, la memoria y los dispositivos periféricos. Los hay de dos tipos:<br>
-•	Multiprocesador asimétrico: cada procesador tiene una tarea específica.<br>
-•	Multiprocesadores simétricos: todos los procesadores realizan las mismas tareas.<br><br>
+• Multiprocesador asimétrico: cada procesador tiene una tarea específica.<br>
+• Multiprocesadores simétricos: todos los procesadores realizan las mismas tareas.<br><br>
 - Sistemas distribuidos: Un sistema distribuido presenta una colección de procesadores que no comparten memoria o reloj, y se comunican por una red interconectada.<br><br>
 - Sistemas operativos de equipos portátiles: Los equipos portátiles de mano en este caso se refiere a aquellos dispositivos de pequeñas dimensiones que pueden ser manipulados con una mano, como por ejemplos las tabletas, los teléfonos inteligentes y las notebooks. Adicionalmente, los sistemas operativos de teléfonos deben adicionar componentes para las comunicaciones y la interface.<br><br>
 - Sistemas operativos empotrados o en tiempo-real: Son los sistemas operativos instalados en los dispositivos médicos, electrónicos, electrodomésticos, automóviles, entre otros. Se encargan de tareas específicas del equipo en cuestión como:<br>
@@ -81,7 +81,18 @@ En el instante de tomar el termino escalable, nos estamos refiriendo a que cada 
 <p align="justify">Es un conjunto de cambios que se aplican a un software para corregir los errores o vulnerabilidades en programas o sistemas operativos, generalmente estos parches de seguridad (actualización de seguridad) son fabricados por fabricantes de software tras la detección de alguna vulnerabilidad y estos se instalan automáticamente o manualmente por el usuario.</p>
 
 <H3>11. CONCLUSIONES</H3>
+<p align="justify">-	Se pudo comprender los distintos beneficios que trae generar una maquina virtual ante una física.<br>
+-	Dentro de las herramientas que nos brinda este servicio, pudimos hacer uso del Control Remoto del Escritorio, facilitándonos mas el uso de nuestra máquina.<br>
+-	Se genero con facilidad, rapidez nuestra maquina virtual dentro de Amazon EC2.<br>
+-	El repositorio que carece este servicio, es extenso, cumpliendo con todas las expectativas ante los sistemas operativos que se necesiten.<br>
+-	Cada uno de los protocolos de seguridad del servicio, satisfacen al usuario, entregando toda la confianza a su servicio.<br></p>
+
 <H3>12. RECOMENDACIONES</H3>
+<p align="justify">-	Si la cuenta va a ser de tipo GRATUITA o ESTUDIANTIL, se deberá tener en cuenta que la máquina virtual solamente será para procedimientos extremadamente básicos.<br>
+-	Para mayor facilidad de uso, configuración, se recomienda descargar el Control Remoto de Escritorio elaborado por AMAZON EC2 para visualizar su maquina virtual, debido a que la pagina web solamente posee la CONSOLA para poder configurar nuestra Virtual Machine.<br>
+-	Tener en cuenta al momento de instalar un sistema operativo, no se lo hace mediante descarga o con la conexión de red, estos sistemas operativos ya vienen precargados en cada servicio, es por ello que solamente tomara ciertos minutos que se genere tu máquina virtual.<br>
+-	Para el uso del Control Remoto de Escritorio y si la maquina desde donde lo ejecutas no tiene habilitado el virtualizador, se deberá activar esta sección ya sea desde la BIOS o desde nuestro PANEL DE CONTROL, caso contrario no nos permitirá que genere imagen nuestra Virtual Machine.<br></p>
+
 <H3>13. CRONOGRAMA</H3>
 <H3>14. BIBLIOGRAFIA</H3>
 <H3>15. ANEXOS</H3>
