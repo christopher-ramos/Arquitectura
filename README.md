@@ -48,7 +48,7 @@ En el instante de tomar el termino escalable, nos estamos refiriendo a que cada 
 <p align="justify">La creación de una cuenta en <b>AWS</b> de tipo <b>ESTUDIANTIL</b> para el uso del servicio <b>AMAZON EC2</b>, viene a ser de tipo visual. Siendo la parte fundamental en la creación de nuestra maquina virtual, ya que sin ella no tendríamos acceso alguno a nuestro portal, y sin ser de tipo estudiantil no tendríamos ciertas funciones disponibles a menos que sea de pago.</p>
 
 <H3>8. EXPLICACION DEL CODIGO FUENTE</H3>
-<p align="justify">Nuestro proyecto no posee codigo fuente, por el hecho de ser un video tutorial.</p>
+<p align="justify">Nuestro proyecto no posee codigo fuente.</p>
 
 <H3>9. DESCRIPCION DE PRERREQUISITOS Y CONFIGURACION</H3>
 <b>Aplicaciones Secundarias</b>
