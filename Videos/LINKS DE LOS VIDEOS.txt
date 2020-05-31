@@ -1,0 +1,2 @@
+https://www.youtube.com/watch?v=CqpudPGmWfk  -> Video del funcionamiento
+https://www.youtube.com/watch?v=fZFMfqDbBVs  -> Video de la creacion de una maquina virtual en Amazon EC2
