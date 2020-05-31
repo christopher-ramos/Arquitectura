@@ -94,7 +94,19 @@ En el instante de tomar el termino escalable, nos estamos refiriendo a que cada 
 -	Para el uso del Control Remoto de Escritorio y si la maquina desde donde lo ejecutas no tiene habilitado el virtualizador, se deberá activar esta sección ya sea desde la BIOS o desde nuestro PANEL DE CONTROL, caso contrario no nos permitirá que genere imagen nuestra Virtual Machine.<br></p>
 
 <H3>13. CRONOGRAMA</H3>
+<p align="center"><img src="img/Cronograma%20de%20gantt.png"/></p>
+<p align="justify"></p>
+
 <H3>14. BIBLIOGRAFIA</H3>
+<p align="justify">-	Amazon Web Services: Ventajas y Desventajas. (n.d.). Recuperado en Mayo 30, 2020, de https://www.ambit-bst.com/blog/amazon-web-services-ventajas-desventajas.<br>
+-	AWS | Elastic compute cloud (EC2) de capacidad modificable en la nube. (n.d.). Recuperado en Mayo 30, 2020, de https://aws.amazon.com/es/ec2/.<br>
+-	CREAR GRATIS UNA MAQUINA VIRTUAL EN LA NUBE - YouTube. (n.d.). Recuperado en Mayo 30, 2020, de https://www.youtube.com/watch?v=aKLnNBD2A98.<br>
+-	Google cloud vs AWS. Comparativa, pros y contras. (n.d.). Recuperado en Mayo 30, 2020, de https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/google-cloud-vs-aws.-comparativa-pros-y-contras.<br>
+-	Ventajas y desventajas del Cloud Computing | ENAE. (n.d.). Recuperado en Mayo 30, 2020, de https://www.enae.es/blog/ventajas-y-desventajas-del-cloud-computing#gref.<br>
+-	¿Qué es Amazon EC2? - Amazon Elastic Compute Cloud. (n.d.). Recuperado en Mayo 30, 2020, de https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/concepts.html.<br>
+-	¿Qué es Amazon Elastic Compute Cloud (Amazon EC2)? (n.d.). Recuperado en Mayo 30, 2020, de https://www.josemariagonzalez.es/amazon-web-services-aws/que-es-amazon-elastic-compute-cloud-amazon-ec2.html/.<br>
+-	¿Qué es y para qué sirve un diagrama de Gantt? (n.d.). Recuperado en Mayo 30, 2020, de https://blog.teamleader.es/diagrama-de-gantt.<br></p>
+
 <H3>15. ANEXOS</H3>
 <H3>15.1 MANUAL DE USUARIO</H3>
 <H3>15.2 HOJAS TECNICAS</H3>
