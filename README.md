@@ -18,10 +18,17 @@
 <p align="justify">- Reconocer el nivel de seguridad que posee este servicio.</p>
 <H3>3. ESTADO DEL ARTE</H3>
 <b>Streaming de medios habilitados en la nube mediante Amazon Web Service (AWS)</b>
-<p align="justify"> Amazon Web Service (AWS) es una colección de servicios de computación remota formando una plataforma de computación en la nube, ofreciendo a través de Amazon.com. Los servicios más conocidos son Amazon EC2 y Amazon S3. En donde el servicio es mucho más rápido, escalable y económico siendo eficaz al generar una gran cantidad de servidores físicos. 
-La transmisión de medios se realiza en computadoras y no en cualquier tipo de uso común. Por lo tanto, este sistema viene a ser, la clave para llevar la transmisión de medios a cada usuario que usa teléfonos inteligentes sin tener que preocuparse por la necesidad de Hardware. 
-El objetivo principal de este sistema propuesto es la transmisión de archivos multimedia a través del servidor de medios utilizando el servicio de AWS. El servidor de medios utiliza Amazon EC2 para la transmisión, mientras que en el almacenamiento de archivos multimedia es hecho en EBS y Simple Storage Service (S3) el cual mantiene la copia de seguridad de estos archivos. Esta transmisión de datos a través de los web servidores de la nube hacia los que utilizan sistemas móviles en lugar de otros, presenta flexibilidad y rapidez al momento de visualizar. 
-Esta flexibilidad se puede usar para abordar problemas importantes que enfrentan aplicaciones como el tráfico del monitoreo, conciertos en línea, conferencias, etc. Tomando en cuenta que una aplicación contara con varias personas en línea en el mismo instante, además de el Bit Rate que será ocupado en el servidor para que el usuario pueda tener una conexión estable con el medio.</p>
+<p align="justify"> Amazon Web Service (AWS) es una colección de servicios de computación remota formando una plataforma de computación en la nube, ofreciendo a través de Amazon.com. Los servicios más conocidos son Amazon EC2 y Amazon S3. En donde el servicio es mucho más rápido, escalable y económico siendo eficaz al generar una gran cantidad de servidores físicos.<br><br> 
+La transmisión de medios se realiza en computadoras y no en cualquier tipo de uso común. Por lo tanto, este sistema viene a ser, la clave para llevar la transmisión de medios a cada usuario que usa teléfonos inteligentes sin tener que preocuparse por la necesidad de Hardware.<br><br>
+El objetivo principal de este sistema propuesto es la transmisión de archivos multimedia a través del servidor de medios utilizando el servicio de AWS. El servidor de medios utiliza Amazon EC2 para la transmisión, mientras que en el almacenamiento de archivos multimedia es hecho en EBS y Simple Storage Service (S3) el cual mantiene la copia de seguridad de estos archivos. Esta transmisión de datos a través de los web servidores de la nube hacia los que utilizan sistemas móviles en lugar de otros, presenta flexibilidad y rapidez al momento de visualizar.<br><br>
+Esta flexibilidad se puede usar para abordar problemas importantes que enfrentan aplicaciones como el tráfico del monitoreo, conciertos en línea, conferencias, etc. Tomando en cuenta que una aplicación contara con varias personas en línea en el mismo instante, además de el Bit Rate que será ocupado en el servidor para que el usuario pueda tener una conexión estable con el medio.<br><br></p>
+
+<b>Explorando la migración a la nube, en vivo, en Amazon EC2</b>
+<p align="justify">Los usuarios pueden migrar su máquina virtual de un proveedor de nube pública a otro, debido a un menor costo o falta de servicios que se necesiten. Actualmente no es posible instalar una segunda plataforma de virtualización en la nube pública porque la virtualización anidada y la virtualización asistida por hardware están deshabilitadas de forma predeterminada.<br><br>
+Dando como resultado, la migración de máquinas virtuales a diferentes proveedores, mayoritariamente de pago, por los beneficios que les otorgan.<br><br>
+Este artículo presenta LivCloud, una solución para vivir la migración a la nube. LivCloud está diseñado en criterios bien establecidos para migrar máquinas virtuales en vivo, con sus debidos protocolos de seguridad y permisos adecuados para tener absoluto control al momento de migrar.<br><br>
+En este estudio, se evaluó la implementación del diseño básico de LivCloud en Amazon EC2. Esta instancia tiene de cálculo optimizado y procesadores de alto rendimiento. En particular se exploró tres opciones desarrolladas. Estas opciones están siendo probadas por primera vez en EC2 donde se podrá cambiar el valor que se tiene de control preestablecido a uno con mayores permisos, además cambiar los valores de los registros significativamente ayudara a habilitar la virtualización anidada en Amazon EC2.<br><br>
+Es por esto y más, que los usuarios preferirían usar Amazon EC2 como su nube, para poder realizar tantos procesos como ellos los requieran, además facilitándoles la migración de su anterior servidor a este nuevo, de manera segura y rápido.<br><br></p>
 
 
 <H3>4. MARCO TEORICO</H3>
@@ -95,9 +102,9 @@ En el instante de tomar el termino escalable, nos estamos refiriendo a que cada 
 -	Cada uno de los protocolos de seguridad del servicio, satisfacen al usuario, entregando toda la confianza a su servicio.<br></p>
 
 <H3>12. RECOMENDACIONES</H3>
-<p align="justify">-	Si la cuenta va a ser de tipo GRATUITA o ESTUDIANTIL, se deberá tener en cuenta que la máquina virtual solamente será para procedimientos extremadamente básicos.<br>
--	Para mayor facilidad de uso, configuración, se recomienda descargar el Control Remoto de Escritorio elaborado por AMAZON EC2 para visualizar su máquina virtual, debido a que la página web solamente posee la CONSOLA para poder configurar nuestra Virtual Machine.<br>
--	Tener en cuenta al momento de instalar un sistema operativo, no se lo hace mediante descarga o con la conexión de red, estos sistemas operativos ya vienen precargados en cada servicio, es por ello que solamente tomara ciertos minutos que se genere tu máquina virtual.<br>
+<p align="justify">-	Si la cuenta va a ser de tipo GRATUITA o ESTUDIANTIL, se deberá tener en cuenta que la máquina virtual solamente será para procedimientos extremadamente básicos.<br><br>
+-	Para mayor facilidad de uso, configuración, se recomienda descargar el Control Remoto de Escritorio elaborado por AMAZON EC2 para visualizar su máquina virtual, debido a que la página web solamente posee la CONSOLA para poder configurar nuestra Virtual Machine.<br><br>
+-	Tener en cuenta al momento de instalar un sistema operativo, no se lo hace mediante descarga o con la conexión de red, estos sistemas operativos ya vienen precargados en cada servicio, es por ello que solamente tomara ciertos minutos que se genere tu máquina virtual.<br><br>
 -	Para el uso del Control Remoto de Escritorio y si la maquina desde donde lo ejecutas no tiene habilitado el virtualizado, se deberá activar esta sección ya sea desde la BIOS o desde nuestro PANEL DE CONTROL, caso contrario no nos permitirá que genere imagen nuestra Virtual Machine.<br></p>
 
 <H3>13. CRONOGRAMA</H3>
@@ -105,13 +112,13 @@ En el instante de tomar el termino escalable, nos estamos refiriendo a que cada 
 <p align="justify"></p>
 
 <H3>14. BIBLIOGRAFIA</H3>
-<p align="justify">-	Amazon Web Services: Ventajas y Desventajas. (n.d.). Recuperado en Mayo 30, 2020, de https://www.ambit-bst.com/blog/amazon-web-services-ventajas-desventajas.<br>
--	AWS | Elastic compute cloud (EC2) de capacidad modificable en la nube. (n.d.). Recuperado en Mayo 30, 2020, de https://aws.amazon.com/es/ec2/.<br>
--	CREAR GRATIS UNA MAQUINA VIRTUAL EN LA NUBE - YouTube. (n.d.). Recuperado en Mayo 30, 2020, de https://www.youtube.com/watch?v=aKLnNBD2A98.<br>
--	Google cloud vs AWS. Comparativa, pros y contras. (n.d.). Recuperado en Mayo 30, 2020, de https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/google-cloud-vs-aws.-comparativa-pros-y-contras.<br>
--	Ventajas y desventajas del Cloud Computing | ENAE. (n.d.). Recuperado en Mayo 30, 2020, de https://www.enae.es/blog/ventajas-y-desventajas-del-cloud-computing#gref.<br>
--	¿Qué es Amazon EC2? - Amazon Elastic Compute Cloud. (n.d.). Recuperado en Mayo 30, 2020, de https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/concepts.html.<br>
--	¿Qué es Amazon Elastic Compute Cloud (Amazon EC2)? (n.d.). Recuperado en Mayo 30, 2020, de https://www.josemariagonzalez.es/amazon-web-services-aws/que-es-amazon-elastic-compute-cloud-amazon-ec2.html/.<br>
+<p align="justify">-	Amazon Web Services: Ventajas y Desventajas. (n.d.). Recuperado en Mayo 30, 2020, de https://www.ambit-bst.com/blog/amazon-web-services-ventajas-desventajas.<br><br>
+-	AWS | Elastic compute cloud (EC2) de capacidad modificable en la nube. (n.d.). Recuperado en Mayo 30, 2020, de https://aws.amazon.com/es/ec2/.<br><br>
+-	CREAR GRATIS UNA MAQUINA VIRTUAL EN LA NUBE - YouTube. (n.d.). Recuperado en Mayo 30, 2020, de https://www.youtube.com/watch?v=aKLnNBD2A98.<br><br>
+-	Google cloud vs AWS. Comparativa, pros y contras. (n.d.). Recuperado en Mayo 30, 2020, de https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/google-cloud-vs-aws.-comparativa-pros-y-contras.<br><br>
+-	Ventajas y desventajas del Cloud Computing | ENAE. (n.d.). Recuperado en Mayo 30, 2020, de https://www.enae.es/blog/ventajas-y-desventajas-del-cloud-computing#gref.<br><br>
+-	¿Qué es Amazon EC2? - Amazon Elastic Compute Cloud. (n.d.). Recuperado en Mayo 30, 2020, de https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/concepts.html.<br><br>
+-	¿Qué es Amazon Elastic Compute Cloud (Amazon EC2)? (n.d.). Recuperado en Mayo 30, 2020, de https://www.josemariagonzalez.es/amazon-web-services-aws/que-es-amazon-elastic-compute-cloud-amazon-ec2.html/.<br><br>
 -	¿Qué es y para qué sirve un diagrama de Gantt? (n.d.). Recuperado en Mayo 30, 2020, de https://blog.teamleader.es/diagrama-de-gantt.<br></p>
 
 <H3>15. ANEXOS</H3>
