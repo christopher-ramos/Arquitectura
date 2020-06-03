@@ -17,6 +17,11 @@
 <p align="justify">- Identificar la variedad de S.O disponibles para la instalación.</p>
 <p align="justify">- Reconocer el nivel de seguridad que posee este servicio.</p>
 <H3>3. ESTADO DEL ARTE</H3>
+<b>Streaming de medios habilitados en la nube mediante Amazon Web Service (AWS)</b>
+<p align="justify"> Amazon Web Service (AWS) es una colección de servicios de computación remota formando una plataforma de computación en la nube, ofreciendo a través de Amazon.com. Los servicios más conocidos son Amazon EC2 y Amazon S3. En donde el servicio es mucho más rápido, escalable y económico siendo eficaz al generar una gran cantidad de servidores físicos. 
+La transmisión de medios se realiza en computadoras y no en cualquier tipo de uso común. Por lo tanto, este sistema viene a ser, la clave para llevar la transmisión de medios a cada usuario que usa teléfonos inteligentes sin tener que preocuparse por la necesidad de Hardware. 
+El objetivo principal de este sistema propuesto es la transmisión de archivos multimedia a través del servidor de medios utilizando el servicio de AWS. El servidor de medios utiliza Amazon EC2 para la transmisión, mientras que en el almacenamiento de archivos multimedia es hecho en EBS y Simple Storage Service (S3) el cual mantiene la copia de seguridad de estos archivos. Esta transmisión de datos a través de los web servidores de la nube hacia los que utilizan sistemas móviles en lugar de otros, presenta flexibilidad y rapidez al momento de visualizar. 
+Esta flexibilidad se puede usar para abordar problemas importantes que enfrentan aplicaciones como el tráfico del monitoreo, conciertos en línea, conferencias, etc. Tomando en cuenta que una aplicación contara con varias personas en línea en el mismo instante, además de el Bit Rate que será ocupado en el servidor para que el usuario pueda tener una conexión estable con el medio.</p>
 
 
 <H3>4. MARCO TEORICO</H3>
@@ -113,3 +118,6 @@ En el instante de tomar el termino escalable, nos estamos refiriendo a que cada 
 <H3>15.1 MANUAL DE USUARIO</H3>
 <H3>15.2 HOJAS TECNICAS</H3>
 <p align="justify">Nuestro proyecto no posee hojas técnicas.</p>
+
+
+
