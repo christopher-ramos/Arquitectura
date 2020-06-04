@@ -116,7 +116,10 @@ En el instante de tomar el termino escalable, nos estamos refiriendo a que cada 
 <H3>14. BIBLIOGRAFIA</H3>
 <p align="justify">-	Amazon Web Services: Ventajas y Desventajas. (n.d.). Recuperado en Mayo 30, 2020, de https://www.ambit-bst.com/blog/amazon-web-services-ventajas-desventajas.<br><br>
 -	AWS | Elastic compute cloud (EC2) de capacidad modificable en la nube. (n.d.). Recuperado en Mayo 30, 2020, de https://aws.amazon.com/es/ec2/.<br><br>
+- Cloud enabled media streaming using Amazon Web Services - IEEE Conference Publication. (n.d.). Recuperado en Mayo 30, 2020, de https://ieeexplore.ieee.org/document/8089150.<br><br>
+- Cost-driven provisioning and execution of a computing-intensive service on the Amazon EC2 - OUP Journals & Magazine. (n.d.). Recuperado en Mayo 30, 2020, de https://ieeexplore.ieee.org/document/8488886.<br><br>
 -	CREAR GRATIS UNA MAQUINA VIRTUAL EN LA NUBE - YouTube. (n.d.). Recuperado en Mayo 30, 2020, de https://www.youtube.com/watch?v=aKLnNBD2A98.<br><br>
+- Exploring Live Cloud Migration on Amazon EC2 - IEEE Conference Publication. (n.d.). Recuperado en Mayo 30, 2020, de https://ieeexplore.ieee.org/document/8114505.<br><br>
 -	Google cloud vs AWS. Comparativa, pros y contras. (n.d.). Recuperado en Mayo 30, 2020, de https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/google-cloud-vs-aws.-comparativa-pros-y-contras.<br><br>
 -	Ventajas y desventajas del Cloud Computing | ENAE. (n.d.). Recuperado en Mayo 30, 2020, de https://www.enae.es/blog/ventajas-y-desventajas-del-cloud-computing#gref.<br><br>
 -	¿Qué es Amazon EC2? - Amazon Elastic Compute Cloud. (n.d.). Recuperado en Mayo 30, 2020, de https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/concepts.html.<br><br>
