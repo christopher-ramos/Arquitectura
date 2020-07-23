@@ -1,21 +1,21 @@
 <H2>INFORME</H2>
 <p align="center"><img src="img/logo_espe.png"/></p>
 <H3>1. PLANTEAMIENTO DEL PROBLEMA</H3>
-<p align="justify">Amazon EC2, forma parte de la red de servicios disponibles por parte de la gigantesca industria Amazon, líder en red de centros de datos mundiales.</p>
+<p align="justify">El micro-ordenador Google Coral, entra al mercado ofreciendo ciertos atributos nuevos, los cuales potenciaran la inteligencia artificial para lo cual esta designado este dispositivo. Además, servirá no solo para la creación de nuevas cosas, también puede alimentar el cerebro de inteligencia artificial de dispositivos ya realizados. Coral no solo tiene capacidad para ejecutar redes neuronales en el propio RPI (Raspberry PI) tal cual le permitirá incorporar de manera rápida, eficaz todo aquello sobre inteligencia artificial, evitando el peligro de hacer publico los datos, es decir dándole confidencialidad a todos los datos que lo contiene.</p>
 
-<p align="justify">Este servicio, ofrece una gran capacidad de sistemas operativos dentro de su repositorio para poder instalarlos en cada una de nuestras máquinas virtuales, considerando la rapidez y facilidad que se tiene para el manejo de usuarios y recursos en gran cantidad, respecto al costo siempre se mantiene en constante promoción de valores aptos para el bolsillo del usuario, usando su estrategia Low Cost, el cual incorpora la idea "Entre más usuarios la usen, más económico debe ser el servicio".</p>
+<p align="justify">TPU o Unidad de Procesamiento Tensorial, viene a ser un acelerador de Inteligencia Artificial el cual fue desarrollado por Google, con objetivo en el aprendizaje automático. Además, se usó en el procesamiento de texto de Street View viniendo a proporcionar resultados de búsqueda, en conclusión, TPU viene a acelerar ciertos procesos, unificarlos, procesarlos de mejor manera, siendo uno de los circuitos integrados más importantes.</p>
 
-<p align="justify">Parte de usar Amazon EC2, es ahorrar en equipamiento, ya que todo lo manejamos de manera virtual y no necesitamos preocuparnos de la parte del Hardware, no obstante, se tiene en cuenta que este servicio incluye actualizaciones automáticas ya sea de seguridad u de otras, evitándonos hacerlo de manera manual. Acerca de las caídas o backups, nuestro servicio esta reforzado para asistirnos de manera adecuada, evitándonos gastos y en ocasiones perdidas involuntarias por parte de un proceso mal realizado.</p>
+<p align="justify">Google Colab, entra como una de las tantas herramientas que posee Google, la cual permite ejecutar y programas en Python, mediante el navegador. Es útil ya que no requiere que se configure, ofrece acceso a GPUs de manera gratuita y se puede compartir los contenidos entre cuentas GOOGLE de manera simultánea. Colab también puede ser considerado como un notebook Jupyter pero de manera gratuita, además se debe tomar en cuenta que se almacena en la nube, mediante nuestras cuentas personales y su almacenamiento disponible. También permite el uso de varias bibliotecas de aprendizaje automático.</p>
 
 <H3>2. OBJETIVOS</H3>
 <b>Objetivos Generales</b>
 <p align="justify">- Realizar un video explicando e identificando los temas relevantes a manera de un tutorial sobre el tema asignado.</p>
-<p align="justify">- Conocer los beneficios de usar una máquina virtual.</p>
+<p align="justify">- Conocer los beneficios de usar Google Coral y TPU, mediante Google Colab.</p>
 <b>Objetivos Específicos</b>
-<p align="justify">- Emplear las herramientas que nos brinda Amazon EC2.</p>
-<p align="justify">- Generar una máquina virtual con el servicio Amazon EC2.</p>
-<p align="justify">- Identificar la variedad de S.O disponibles para la instalación.</p>
-<p align="justify">- Reconocer el nivel de seguridad que posee este servicio.</p>
+<p align="justify">- Emplear las herramientas que nos brinda Google Coral y Colab.</p>
+<p align="justify">- Analizar la plataforma Google Colab para el uso de TPU.</p>
+<p align="justify">- Implementar un ejemplo que verifique la diferencia de rendimiento de una CPU y una TPU.</p>
+<p align="justify">- Analizar las características de hardware y software de la tarjeta de desarrollo Google Coral.</p>
 <H3>3. ESTADO DEL ARTE</H3>
 <b>Streaming de medios habilitados en la nube mediante Amazon Web Service (AWS)</b><br>
 <p align="justify">Amazon Web Service (AWS) es una colección de servicios de computación remota formando una plataforma de computación en la nube, ofreciendo a través de Amazon.com. Los servicios más conocidos son Amazon EC2 y Amazon S3. En donde el servicio es mucho más rápido, escalable y económico siendo eficaz al generar una gran cantidad de servidores físicos.<br><br> 
@@ -34,24 +34,40 @@ También se ha propuesto un modelo basado en costos para su evaluación a instan
 El modelo incluye una amplia gama de diferentes tipos de instancias y políticas de compra proporcionadas por Amazon EC2, también respecto a costos esta propuesta se integra en el asunto para la implementación y ejecución del servicio, haciendo posible la interacción con los servicios web de Amazon para contratar los recursos en la nube necesarios y utilizarlos de manera eficiente para la ejecución del servicio, con esto el articulo trata de dar a entender los costos vienen a ser económicos referentes a la gran cantidad de beneficios que se obtiene contratando Amazon EC2.<br><br></p>
 
 <H3>4. MARCO TEORICO</H3>
-<p align="justify">Amazon Elastic Compute Cloud proporciona capacidad de computación escalable en la nube de AWS (Amazon Web Services)
-En el instante de tomar el termino escalable, nos estamos refiriendo a que cada usuario puede contratar lo que desee y configurar su servicio como él quiera, es decir no hay un solo modo de utilizar AWS, sino múltiples.</p>
+<p align="justify">Google Coral, se desarrolló únicamente con el objetivo de realizar tareas de machine learning las cuales se integran en tareas de producción de manera eficaz y rápida. Hace uso de la red neuronal TensorFlow Lite y del modulo Edge TPU. Que es de tipo SOM (System on Module) donde van a estar ensamblados el procesador, la GPU, la RAM, el chip del WiFi y la Flash.</p>
 
-<p align="justify">El uso de Amazon EC2 tiene una serie de beneficios, uno de ellos y el más importante es aquel que elimina la necesidad de invertir en hardware, de tal manera que se puede desarrollar aplicaciones e implementar aplicaciones con mayor rapidez, evitándonos tener que realizar distintos ensambles para mayor velocidad en nuestra máquina virtual, no menos importante tenemos también la disponibilidad de lanzar tantos servidores a la necesidad del usuario, en los cuales podemos administrar la seguridad, velocidad y almacenamiento.</p>
+<p align="justify">Coral trabaja para satisfacer las necesidades del cliente, por lo cual idearon dos productos a la venta los cuales son aceleradores y plazas de desarrollo para la creación de prototipos de nuevas ideas, y módulos para alimentar el cerebro de inteligencia artificial de los dispositivos de producción, tales como cámaras inteligentes y sensores.</p>
 
-<p align="justify">Por parte de las herramientas que brinda Amazon EC2, daremos a conocer una de las principales, las cuales toman el nombre de plantillas preconfiguradas para las instancias, las cuales se conocen como imágenes de máquina de Amazon en las cuales se encuentra todo lo necesario para generar nuestra máquina virtual, incluyendo el sistema operativo y software adicional.</p>
+<p align="justify">Coral es capaz de ejecutar redes neurales en el propio RPI, de forma que “le es posible incorporar de manera rápida y eficaz, sin que sus proyectos representen un peligro para la confidencialidad de datos”.</p>
 
-<p align="justify">Otra herramienta que nos brinda este increíble servicio, es reconfigurar los tipos de instancias, es decir, configurar el CPU en sí, memoria, almacenamiento, capacidad de red.</p>
+<p align="justify">Dentro de las especificaciones técnicas, son:</p>
+<p align="justify">- CPU: NXP i.MXM 8M SOC (Cortex-A53 quad core)</p>
+<p align="justify">- GPU: integrada, GC7000 Lite Graphics</p>
+<p align="justify">- Coprocesador: Google Edge TPU</p>
+<p align="justify">- RAM: 1 GB LPDDR4</p>
+<p align="justify">- Almacenamiento: Flash eMMC de 8 GB</p>
+<p align="justify">- Conectividad: WiFi 2×2 MIMO de doble banda y Bluetooth 4.1</p>
+<p align="justify">- Dimensiones: 48 x 40 x 5 mm</p>
 
-<p align="justify">Generar una máquina virtual se ha facilitado mucho más para los desarrolladores, compañías, sin olvidar la rapidez con la cual pueden crearla, teniendo a su paso precios al alcance del bolsillo del usuario, si bien es cierto, la comparación del uso de Amazon EC2 a la inversión en hardware vendría a economizar al usuario en gran cantidad, ya que el mantenimiento correría por parte del servicio, al igual que sus actualizaciones, dando todas las facilidades tanto como de instalación, manejo y pagos módicos al usuario.</p>
+<p align="justify">Las especificaciones de la placa base son:</p>
+<p align="justify">- Almacenamiento: microSD</p>
+<p align="justify">- USB: Un USB C para funcionalidad OTG, un USB C para la alimentación, un USB de tip0o micro USB para consola y un puerto USB A</p>
+<p align="justify">- LAN: puerto Gigabit Ethernet</p>
+<p align="justify">- Audio: un conector mini jack de 3,5 mm y un terminal de 4 pines para altavoces estéreo</p>
+<p align="justify">- Vídeo: Un conector HDMI 2.0a de tamaño completo y un conector de 24 pines para una cámara MIPI-CSI2</p>
+<p align="justify">- GPIO: un conector de 40 pines</p>
+<p align="justify">- Alimentación: 5 V Corriente continua</p>
+<p align="justify">- Dimensiones: 88 x 60 x 24 mm</p>
 
-<p align="justify">Amazon EC2, tiene un repositorio extenso dentro de su servicio, con variedad de herramientas, S.O., tomados con el nombre de AMI (Amazon Machine Image), para que el servicio cumpla con las necesidades del usuario, además de poseer las licencias de las seguridades necesarias para mantener a salvo nuestra máquina virtual.</p>
+<p align="justify">El módulo Edge TPU se ha diseñado para proporcionar un gran rendimiento en aplicaciones destinadas al aprendizaje automático, su tamaño compacto y reducido consumo de potencia lo hacen perfecto para ser integrado en sistemas dedicados al IoT, que realizan funciones de reconocimiento de imagen y de texto.</p>
 
-<p align="justify">AMI está compuesto por 4 fuentes: publicación de AWS, AMI publicado por un socio en el mercado de AWS con paquetes de software preinstalados, AMI generadas por el cliente a partir de instancias de Amazon EC2 existentes y AMI cargadas desde servidores virtuales.</p>
+<p align="justify">La incorporación de este chip a la Google Coral hace que se reduzca de manera exponencial el tiempo que requiere la red neuronal para procesar los datos que le son suministrados.</p>
 
-<p align="justify">Amazon EC2, tiene un repositorio extenso dentro de su servicio, con variedad de herramientas, S.O., para que el servicio cumpla con las necesidades del usuario, además de poseer las licencias de las seguridades necesarias para mantener a salvo nuestra máquina virtual.</p>
+<p align="justify">TensorFlow, se trata de una librería realizada en código abierto, la cual se ha desarrollado con un ecosistema de herramientas y una comunidad detrás de ella, cuyo único objetivo es potenciar el desarrollo de aplicaciones de Inteligencia Artificial y aprendizaje automático. Pero la novedad que presenta Google Coral, es que este pequeño micro PC es capaz de utilizarlo en tiempo real.</p>
 
-<p align="justify">Respecto a la seguridad que se tiene en un Cloud Computing Machine, podemos observar que Amazon EC2 ha podido cubrir casi todos los agujeros o filtros de seguridad en los que podrían haber ocurrido una serie de inconvenientes por parte de terceros. Estos protocolos de seguridad, APIs, tienen que dar efectividad al usuario que su máquina virtual se encuentra segura y también brindarle el acceso al usuario para que él pueda modificar parte de la red, direccionamiento, protocolos, licencias de seguridad dentro de su máquina virtual sin ningún peligro. Por ello el servicio tomo ciertas medidas como que la información de inicio de sesión sea segura para las instancias con pares de claves, es decir, AWS almacena la clave publica y el usuario guarda la clave privada. No obstante Amazon EC2 tiene en cada de las instancias un firewall que permite al usuario especificar los protocolos, los puertos y los rangos de direcciones de IP por medio de grupos de seguridad internos del servicio.</p>
+<p align="justify">Google Colab, es una herramienta de Google, la cual trata de ser un entorno de maquinas virtuales basado en Jupyter Notebooks. Se pueden ejecutar en la nube, donde podremos escoger si correr en una CPU, GPU o en una TPU, todo esto de manera gratuita. No obstante, hay ciertas restricciones, como por ejemplo que una sesión dura 12 horas, pasado el tiempo se realiza una limpieza y se perderán ciertas variables, archivos que se deberán tener allí.</p>
+
+<p align="justify">Sirve como medio para simular o experimentar con machine learning y Deep learning, pero sin tener que ir por costos de procesamiento de la nube, además el ambiente de trabajo ya tiene librerías instaladas las cuales están listas para utilizar, una de ellas antes mencionada es TensorFlow.</p>
 
 <H3>5. DIAGRAMAS</H3>
 <p align="center"><img src="img/Diagrama%20%231.png"/></p>
