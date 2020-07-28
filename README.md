@@ -165,17 +165,16 @@ Después de llegar a la conclusión de cada uno de los objetivos específicos se
 <p align="justify">-	https://www.adslzone.net/2017/04/06/tpu-el-chip-de-google-hasta-30-veces-mas-potente-que-una-cpu-y-gpu-normales/J.  Clerk  Maxwell, A Treatise on Electricity and Magnetism, 3rd ed., vol. 2. Oxford: Clarendon, 1892, pp.68-73.<br><br>
 -	I.S.  Jacobs  and  C.P.  Bean,  “Fine  particles,  thin films  and  exchange  anisotropy,”  in  Magnetism, vol. III, G.T. Rado and H. Suhl, Eds. New York: Academic, 1963, pp. 271-350.<br><br>
 - K. Elissa, “Title of paper if known,” unpublished.<br><br>
-- https://es.wikipedia.org/wiki/Unidad_central_de_procesamiento.<br><br>
--	https://www.definicionabc.com/tecnologia/cpu.php.<br><br>
-- http://www.valortop.com/blog/que-es-la-cpu-o-procesador-de-un-ordenador.<br><br>
--	https://cloud.google.com/blog/big-data/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu.<br><br>
--	https://es.wikipedia.org/wiki/Unidad_de_procesamiento_de_tensor.<br><br>
--	https://www.adslzone.net/2017/04/06/tpu-el-chip-de-google-hasta-30-veces-mas-potente-que-una-cpu-y-gpu-normales/<br><br>
--	https://www.blog.google/topics/google-cloud/google-cloud-offer-tpus-machine-learning/<br><br>
--	https://www.nextplatform.com/2017/05/17/first-depth-look-googles-new-secondgeneration-tpu/<br><br>
--	http://www.informatica-hoy.com.ar/aprender-informatica/Diferencias-CPU-GPU-APU.php<br><br>
--	https://www.hpcwire.com/2017/04/10/nvidia-responds-google-tpu-benchmarking/<br><br>
--	http://www.forosdeelectronica.com/f37/procesadores-dedicados-redes-neurologicas-procesamiento-tensores-152755/<br><br></p>
+- ¿Qué es la CPU o procesador de un ordenador? // SoftwareLab. (n.d.). Recuperado en Julio 23, 2020, de https://softwarelab.org/es/que-es-la-cpu-o-procesador-de-un-ordenador/<br><br>
+-	Build and train machine learning models on our new Google Cloud TPUs. (n.d.). Recuperado en Julio 28, 2020, de https://www.blog.google/topics/google-cloud/google-cloud-offer-tpus-machine-learning/<br><br>
+- Definición de CPU » Concepto en Definición ABC. (n.d.). Recuperado en July 23, 2020, de https://www.definicionabc.com/tecnologia/cpu.php<br><br>
+-	Nvidia Responds to Google TPU Benchmarking. (n.d.). Recuperado en Julio 23, 2020, de https://www.hpcwire.com/2017/04/10/nvidia-responds-google-tpu-benchmarking/<br><br>
+-	Page not found - The Next Platform. (n.d.). Recuperado en Julio 23, 2020, de https://www.nextplatform.com/2017/05/17/first-depth-look-googles-new-secondgeneration-tpu/<br><br>
+-	Procesadores dedicados a redes neurológicas y procesamiento de tensores | Foros de Electrónica. (n.d.). Recuperado en Julio 23, 2020, de https://www.forosdeelectronica.com/threads/procesadores-dedicados-a-redes-neurológicas-y-procesamiento-de-tensores.152755/<br><br>
+-	Siglas de informática que debes conocer - Tecnología + Informática. (n.d.). Recuperado en Julio 23, 2020, de https://www.tecnologia-informatica.com/siglas-informatica/<br><br>
+-	TPU: el chip de Google hasta 30 veces más potente que una CPU y GPU. (n.d.). Recuperado en Julio 23, 2020, de https://www.adslzone.net/2017/04/06/tpu-el-chip-de-google-hasta-30-veces-mas-potente-que-una-cpu-y-gpu-normales/<br><br>
+-	Unidad central de procesamiento - Wikipedia, la enciclopedia libre. (n.d.). Recuperado en Julio 23, 2020, de https://es.wikipedia.org/wiki/Unidad_central_de_procesamiento<br><br>
+-	Unidad de procesamiento tensorial - Wikipedia, la enciclopedia libre. (n.d.). Recuperado en Julio 23, 2020, de https://es.wikipedia.org/wiki/Unidad_de_procesamiento_tensorial<br><br></p>
 
 <H3>15. ANEXOS</H3>
 <H3>15.1 MANUAL DE USUARIO</H3>
