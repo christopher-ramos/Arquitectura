@@ -113,34 +113,38 @@ El modelo incluye una amplia gama de diferentes tipos de instancias y políticas
 <p align="justify">Es un conjunto de cambios que se aplican a un software para corregir los errores o vulnerabilidades en programas o sistemas operativos, generalmente estos parches de seguridad (actualización de seguridad) son fabricados por fabricantes de software tras la detección de alguna vulnerabilidad y estos se instalan automáticamente o manualmente por el usuario.</p>
 
 <H3>11. CONCLUSIONES</H3>
-<p align="justify">-	Se pudo comprender los distintos beneficios que trae generar una máquina virtual ante una física.<br>
--	Dentro de las herramientas que nos brinda este servicio, pudimos hacer uso del Control Remoto del Escritorio, facilitándonos más el uso de nuestra máquina.<br>
--	Se genero con facilidad, rapidez nuestra máquina virtual dentro de Amazon EC2.<br>
--	El repositorio que carece este servicio, es extenso, cumpliendo con todas las expectativas ante los sistemas operativos que se necesiten.<br>
--	Cada uno de los protocolos de seguridad del servicio, satisfacen al usuario, entregando toda la confianza a su servicio.<br></p>
+<p align="justify">Realizada la investigación sobre las tarjetas de desarrollo  se llegó a las conclusiones sobre los objetivos específicos las cuales fueron:<br>
+-	Las TPU son dispositivos que realizan con una mayor velocidad ya que la misma trabaja con matrices y con bloques de código que en comparación de las CPU es un 30% a 40 % más  veloz y exacta en los cálculos.<br>
+-	Las TPU son dispositivos que realizan con una mayor velocidad ya que la misma trabaja con matrices y con bloques de código que en comparación de las GPU es un 15% a 20 % más  veloz y exacta en los cálculos.<br>
+-	El ejemplo funcional se especificó en pasos anteriores además de mostrar la diferencia de tiempos en la implementación del código en el CPU, GPU, TPU.<br>
+Las conclusiones planteadas son de cada objetivo específico respectivamente los cuales ya fueron mostrados en un paso anterior.<br>
+Después de llegar a la conclusión de cada uno de los objetivos específicos se tiene que llegar a la evolución final del objetivo principal, que después de la evaluación se llegó a su respectiva conclusión, la cual es:<br>
+- Durante el desarrollo de los objetivos específicos se llegó a la conclusión que el objetivo general se cumplió a cabalidad ya  que gracias a la implementación del ejemplo mostrado anteriormente se mostró la diferencia en la velocidad de procesamiento que sus contrapartes como son las CPU y las GPU.</p>
 
 <H3>12. RECOMENDACIONES</H3>
-<p align="justify">-	Si la cuenta va a ser de tipo GRATUITA o ESTUDIANTIL, se deberá tener en cuenta que la máquina virtual solamente será para procedimientos extremadamente básicos.<br><br>
--	Para mayor facilidad de uso, configuración, se recomienda descargar el Control Remoto de Escritorio elaborado por AMAZON EC2 para visualizar su máquina virtual, debido a que la página web solamente posee la CONSOLA para poder configurar nuestra Virtual Machine.<br><br>
--	Tener en cuenta al momento de instalar un sistema operativo, no se lo hace mediante descarga o con la conexión de red, estos sistemas operativos ya vienen precargados en cada servicio, es por ello que solamente tomara ciertos minutos que se genere tu máquina virtual.<br><br>
--	Para el uso del Control Remoto de Escritorio y si la maquina desde donde lo ejecutas no tiene habilitado el virtualizado, se deberá activar esta sección ya sea desde la BIOS o desde nuestro PANEL DE CONTROL, caso contrario no nos permitirá que genere imagen nuestra Virtual Machine.<br></p>
+<p align="justify">-	Al momento de realizar la investigación nos mostró que se deben estudiar más afondo de la tecnología TPU ya que la misma al ser un concepto reciente no existe una información muy amplia.<br><br>
+-	Conocer los distintos tipos de plataformas elegibles para realizar simulaciones sobre los diferentes elementos estudiados en este artículo.<br><br>
+- Tener en cuenta al momento de realizar cualquier simulación en las TPU , GPU y las CPU se deben tomar en cuenta los lenguajes de programación elegidos para el componente en el que se necesita simularlo.<br></p>
 
 <H3>13. CRONOGRAMA</H3>
 <p align="center"><img src="img/Cronograma%20de%20gantt.png"/></p>
 <p align="justify"></p>
 
 <H3>14. BIBLIOGRAFIA</H3>
-<p align="justify">-	Amazon Web Services: Ventajas y Desventajas. (n.d.). Recuperado en Mayo 30, 2020, de https://www.ambit-bst.com/blog/amazon-web-services-ventajas-desventajas.<br><br>
--	AWS | Elastic compute cloud (EC2) de capacidad modificable en la nube. (n.d.). Recuperado en Mayo 30, 2020, de https://aws.amazon.com/es/ec2/.<br><br>
-- Cloud enabled media streaming using Amazon Web Services - IEEE Conference Publication. (n.d.). Recuperado en Mayo 30, 2020, de https://ieeexplore.ieee.org/document/8089150.<br><br>
-- Cost-driven provisioning and execution of a computing-intensive service on the Amazon EC2 - OUP Journals & Magazine. (n.d.). Recuperado en Mayo 30, 2020, de https://ieeexplore.ieee.org/document/8488886.<br><br>
--	CREAR GRATIS UNA MAQUINA VIRTUAL EN LA NUBE - YouTube. (n.d.). Recuperado en Mayo 30, 2020, de https://www.youtube.com/watch?v=aKLnNBD2A98.<br><br>
-- Exploring Live Cloud Migration on Amazon EC2 - IEEE Conference Publication. (n.d.). Recuperado en Mayo 30, 2020, de https://ieeexplore.ieee.org/document/8114505.<br><br>
--	Google cloud vs AWS. Comparativa, pros y contras. (n.d.). Recuperado en Mayo 30, 2020, de https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/google-cloud-vs-aws.-comparativa-pros-y-contras.<br><br>
--	Ventajas y desventajas del Cloud Computing | ENAE. (n.d.). Recuperado en Mayo 30, 2020, de https://www.enae.es/blog/ventajas-y-desventajas-del-cloud-computing#gref.<br><br>
--	¿Qué es Amazon EC2? - Amazon Elastic Compute Cloud. (n.d.). Recuperado en Mayo 30, 2020, de https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/concepts.html.<br><br>
--	¿Qué es Amazon Elastic Compute Cloud (Amazon EC2)? (n.d.). Recuperado en Mayo 30, 2020, de https://www.josemariagonzalez.es/amazon-web-services-aws/que-es-amazon-elastic-compute-cloud-amazon-ec2.html/.<br><br>
--	¿Qué es y para qué sirve un diagrama de Gantt? (n.d.). Recuperado en Mayo 30, 2020, de https://blog.teamleader.es/diagrama-de-gantt.<br></p>
+<p align="justify">-	https://www.adslzone.net/2017/04/06/tpu-el-chip-de-google-hasta-30-veces-mas-potente-que-una-cpu-y-gpu-normales/J.  Clerk  Maxwell, A Treatise on Electricity and Magnetism, 3rd ed., vol. 2. Oxford: Clarendon, 1892, pp.68-73.<br><br>
+-	I.S.  Jacobs  and  C.P.  Bean,  “Fine  particles,  thin films  and  exchange  anisotropy,”  in  Magnetism, vol. III, G.T. Rado and H. Suhl, Eds. New York: Academic, 1963, pp. 271-350.<br><br>
+- K. Elissa, “Title of paper if known,” unpublished.<br><br>
+- https://es.wikipedia.org/wiki/Unidad_central_de_procesamiento.<br><br>
+-	https://www.definicionabc.com/tecnologia/cpu.php.<br><br>
+- http://www.valortop.com/blog/que-es-la-cpu-o-procesador-de-un-ordenador.<br><br>
+-	https://cloud.google.com/blog/big-data/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu.<br><br>
+-	https://es.wikipedia.org/wiki/Unidad_de_procesamiento_de_tensor.<br><br>
+-	https://www.adslzone.net/2017/04/06/tpu-el-chip-de-google-hasta-30-veces-mas-potente-que-una-cpu-y-gpu-normales/<br><br>
+-	https://www.blog.google/topics/google-cloud/google-cloud-offer-tpus-machine-learning/<br><br>
+-	https://www.nextplatform.com/2017/05/17/first-depth-look-googles-new-secondgeneration-tpu/<br><br>
+-	http://www.informatica-hoy.com.ar/aprender-informatica/Diferencias-CPU-GPU-APU.php<br><br>
+-	https://www.hpcwire.com/2017/04/10/nvidia-responds-google-tpu-benchmarking/<br><br>
+-	http://www.forosdeelectronica.com/f37/procesadores-dedicados-redes-neurologicas-procesamiento-tensores-152755/<br><br></p>
 
 <H3>15. ANEXOS</H3>
 <H3>15.1 MANUAL DE USUARIO</H3>
