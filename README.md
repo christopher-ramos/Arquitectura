@@ -1,5 +1,5 @@
 <H2>INFORME</H2>
-<p align="center"><img src="img/logo_espe.png"/></p>
+<p align="center"><img src="img/logo.png"/></p>
 <H3>1. PLANTEAMIENTO DEL PROBLEMA</H3>
 <p align="justify">El micro-ordenador Google Coral, entra al mercado ofreciendo ciertos atributos nuevos, los cuales potenciaran la inteligencia artificial para lo cual esta designado este dispositivo. Además, servirá no solo para la creación de nuevas cosas, también puede alimentar el cerebro de inteligencia artificial de dispositivos ya realizados. Coral no solo tiene capacidad para ejecutar redes neuronales en el propio RPI (Raspberry PI) tal cual le permitirá incorporar de manera rápida, eficaz todo aquello sobre inteligencia artificial, evitando el peligro de hacer publico los datos, es decir dándole confidencialidad a todos los datos que lo contiene.</p>
 
