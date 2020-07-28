@@ -1,2 +1,2 @@
-https://www.youtube.com/watch?v=CqpudPGmWfk  -> Video del funcionamiento
-https://www.youtube.com/watch?v=fZFMfqDbBVs  -> Video de la creacion de una maquina virtual en Amazon EC2
+https://youtu.be/kZiqG2JP_2U  -> Video de la comparacion entre CPU y TPU, mediante Google Colab
+
