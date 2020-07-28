@@ -175,8 +175,9 @@ Después de llegar a la conclusión de cada uno de los objetivos específicos se
 
 <H3>15. ANEXOS</H3>
 <H3>15.1 MANUAL DE USUARIO</H3>
+<p align="justify">Adjunto en la carpeta Manual de Usuario.</p>
 <H3>15.2 HOJAS TECNICAS</H3>
-<p align="justify">Nuestro proyecto no posee hojas técnicas.</p>
+<p align="justify">Adjunto en la carpeta Hojas Técnicas.</p>
 
 
 
