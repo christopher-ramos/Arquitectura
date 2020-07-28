@@ -73,44 +73,70 @@ El modelo incluye una amplia gama de diferentes tipos de instancias y políticas
 <p align="center"><img src="img/Diagrama%20%231.png"/></p>
 
 <H3>6. LISTA DE COMPONENTES</H3>
-<p align="center"><img src="img/RecursosTI.png"/></p>
+<p align="justify"><b>Google Coral</b></p>
+<p align="justify">- Edge TPU System-on-Module (SoM)<br>
+- SoC NXP i.MX 8M (brazo de cuatro núcleos Cortex-A53, más Cortex-M4F)<br>
+- Coprocesador acelerador Google Edge TPU ML<br>
+- Coprocesador criptográfico<br>
+- Wi-Fi 2x2 MIMO (802.11b / g / n / ac 2.4 / 5 GHz)<br>
+- Bluetooth 4.2<br>
+- EMMC de 8 GB<br>
+- 1 GB LPDDR4<br>
+- Conexiones USB<br>
+- Puerto de alimentación USB tipo C (5 V CC)<br>
+- Puerto USB 3.0 Tipo-C OTG<br>
+- Puerto host USB 3.0 tipo A<br>
+- Puerto de consola serie USB 2.0 Micro-B<br>
+- Conexiones de audio<br>
+- Conector de audio de 3,5 mm (compatible con CTIA)<br>
+- Micrófono digital PDM (x2)<br>
+- Terminal de 4 pines de 2,54 mm para altavoces estéreo<br>
+- Conexiones de video<br>
+- HDMI 2.0a (tamaño completo)<br>
+- Conector FFC de 39 pines para pantalla MIPI DSI (4 carriles)<br>
+- Conector FFC de 24 pines para cámara MIPI CSI-2 (4 carriles)<br>
+- Ranura para tarjeta microSD<br>
+- Puerto Gigabit Ethernet<br>
+- Cabecera de expansión GPIO de 40 pines<br>
+- Admite Mendel Linux (derivado de Debian)<br></p>
+
+<p align="justify"><b>Google Colab</b></p>
+<p align="justify">- IPython Notebook<br>
+- Celdas<br>
+- Kernel<br>
+- Librerías<br>
+- VM de Google Compute Engine (la infraestructura de máquinas virtuales de Google en la nube)<br>
+- 12 GB de RAM<br>
+- 50 GB de almancenamiento en disco disponibles para el uso<br>
+- Tiempo-Maximo 12 horas<br>
+- Python 2<br>
+- Python 3<br>
+- GPU<br>
+- CPU<br>
+- TPU<br></p>
 
 <H3>7. MAPA DE VARIABLES</H3>
 <p align="center"><img src="img/AmazonEC2.png"/></p>
-<p align="justify">La creación de una cuenta en <b>AWS</b> de tipo <b>ESTUDIANTIL</b> para el uso del servicio <b>AMAZON EC2</b>, viene a ser de tipo visual. Siendo la parte fundamental en la creación de nuestra máquina virtual, ya que sin ella no tendríamos acceso alguno a nuestro portal, y sin ser de tipo estudiantil no tendríamos ciertas funciones disponibles a menos que sea de pago.</p>
 
 <H3>8. EXPLICACION DEL CODIGO FUENTE</H3>
 <p align="justify">Nuestro proyecto no posee código fuente.</p>
 
 <H3>9. DESCRIPCION DE PRERREQUISITOS Y CONFIGURACION</H3>
-<b>Aplicaciones Secundarias</b>
-<p align="justify">-	Control Remoto de Escritorio: Propiamente de la creación de Amazon EC2 para la reproducción visual de nuestra máquina virtual ya que en el sitio web solo poseemos la consola.</p>
-<p align="justify">-	Navegador web (Google Chrome, Microsoft Edge): Tanto para la creación de la cuenta de usuario, como para la selección del sistema operativo a instalar.</p>
-<b>Configuración del terminal</b>
-<p align="justify">-	Se debe tener una cuenta ya sea ESTUDIANTIL o de PAGO para obtener ciertos beneficios a la hora de tener la máquina virtual, tanto en funciones como rapidez en transición de datos.</p>
-<p align="justify">-	Ingresar el usuario y contraseña emitidos al correo electrónico para el uso únicamente de la máquina virtual mediante la aplicación secundaria.</p>
-<p align="justify">-	Las MAQUINAS BASICAS tienen muy poco almacenamiento tanto en Disco Duro (30GB) como en Memoria RAM (1GB) es por ello que nos servirá únicamente para cosas muy sencillas.</p>
-<p align="justify">-	El uso del control remoto de escritorio servirá para poder configurar de manera adecuada nuestra máquina virtual, como si tuviésemos una física.</p>
+<p align="justify">Se necesita una cuenta de Google colab donde nosotros podremos guardar nuestros códigos y permitir que nuestros compañeros puedan acceder y modificar nuestros diferentes códigos, la cual puede ser una cuenta institucional o una cuenta personal donde solo debemos llenar nuestra información y posteriormente elegir nuestro tipo de código que queremos realizar (Python 2 o Python3) nuestro tipo de procesador que queramos (CPU, GPU o TPU) y listo ya podemos usar Google colab al 100%</p>
 
 <H3>10. APORTACIONES</H3>
-<b>Máquina Virtual</b>
-<p align="justify">Es un software que simula un sistema de computación y puede ejecutar programas como si fuese una computadora real, pero lo hace de manera aislada además emula todos los elementos que posee una máquina en físico entre los componentes que simula se encuentran: disco duro, memoria RAM, tarjetas de red, tarjeta gráfica, etc.</p>
-<b>Sistema Operativo</b>
-<p align="justify">Es un conjunto de programas especialmente diseñado para hacer de intermediarios entre el usuario y la computadora, estos programas nos sirven para controlar el hardware de manera fácil y conveniente para el usuario, puede decirse que es corazón de la máquina ya que este tiene prioridad de ejecución ante otras aplicaciones además de controlar todos los periféricos disponibles en la computadora, los sistemas operativos más utilizados son: Microsoft Windows, Mac OS X y Linux Ubuntu.</p>
-<b>Tipos de Sistemas operativos</b>
-<p align="justify">- Sistema monoprocesador:  En el sistema monoprocesador existe una sola unidad de procesamiento central (CPU) capaz de ejecutar una serie de instrucciones de índole general.<br><br>
-- Sistemas multiprocesadores: También llamados sistemas paralelos o estrechamente acoplados, los sistemas multiprocesadores tienen dos o más CPU que comparten buses y a veces el reloj, la memoria y los dispositivos periféricos. Los hay de dos tipos:<br>
-• Multiprocesador asimétrico: cada procesador tiene una tarea específica.<br>
-• Multiprocesadores simétricos: todos los procesadores realizan las mismas tareas.<br><br>
-- Sistemas distribuidos: Un sistema distribuido presenta una colección de procesadores que no comparten memoria o reloj, y se comunican por una red interconectada.<br><br>
-- Sistemas operativos de equipos portátiles: Los equipos portátiles de mano en este caso se refiere a aquellos dispositivos de pequeñas dimensiones que pueden ser manipulados con una mano, como por ejemplos las tabletas, los teléfonos inteligentes y las notebooks. Adicionalmente, los sistemas operativos de teléfonos deben adicionar componentes para las comunicaciones y la interface.<br><br>
-- Sistemas operativos empotrados o en tiempo-real: Son los sistemas operativos instalados en los dispositivos médicos, electrónicos, electrodomésticos, automóviles, entre otros. Se encargan de tareas específicas del equipo en cuestión como:<br>
-•	Ahorrar la potencia de la batería.<br>
-•	Ajustarse a tiempos limitados.<br>
-•	No requiere supervisión humana.<br></p>
+<b>SOM</b>
+<p align="justify">Coral System-on-Module (SoM) es un sistema completamente integrado que lo ayuda a construir dispositivos integrados que exigen inferencias de aprendizaje automático (ML) rápidas. Contiene el sistema en chip (SoC) iMX 8M de NXP, memoria eMMC, LPDDR4 RAM, Wi-Fi y Bluetooth, pero su potencia única proviene del coprocesador Edge TPU de Google para la inferencia de aprendizaje automático de alta velocidad. (Google Coral, 2019)</p>
+<b>Edge TPU</b>
+<p align="justify">Edge TPU permite desplegar inferencias de aprendizaje automático de alta calidad en el perímetro por medio de diversos productos de producción y prototipado de Coral.</p>
+<p align="justify">La plataforma de aprendizaje automático en el perímetro de Coral refuerza las TPU de Google Cloud y Cloud IoT para proporcionar una infraestructura completa (de hardware y software, y de la nube al perímetro) que facilita el despliegue de las soluciones basadas en IA de los clientes. La plataforma de Coral no solo incluye el entorno de programación de código abierto TensorFlow Lite, sino que también proporciona un kit de herramientas para desarrolladores que te permite compilar tus propios modelos o volver a preparar varios modelos de IA de Google para Edge TPU. De esta manera, se aúnan nuestros conocimientos avanzados tanto en IA como en hardware. (Merino, 2019)</p>
+<p align="justify">Edge TPU complementa las CPU, GPU y FPGA, además de otras soluciones ASIC, a fin de ejecutar la IA en el perímetro.</p>
 
-<b>Parches de Seguridad</b>
-<p align="justify">Es un conjunto de cambios que se aplican a un software para corregir los errores o vulnerabilidades en programas o sistemas operativos, generalmente estos parches de seguridad (actualización de seguridad) son fabricados por fabricantes de software tras la detección de alguna vulnerabilidad y estos se instalan automáticamente o manualmente por el usuario.</p>
+<b>Python</b>
+<p align="justify">Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código. Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.Es administrado por la Python Software Foundation. Posee una licencia de código abierto, denominada Python Software Foundation License, que es compatible con la Licencia pública general de GNU a partir de la versión 2.1.1, e incompatible en ciertas versiones anteriores(Knowlton, Jim (2009)).</p>
+
+<b>Edge Computing</b>
+<p align="justify">El edge computing es un tipo de informática que ocurre en la ubicación física del usuario, de la fuente de datos, o cerca de ellas. Al establecer servicios de computación cerca de esas ubicaciones, los usuarios obtienen servicios más rápidos y confiables, y las empresas aprovechan la flexibilidad del cloud computing híbrido. Con el edge computing, una empresa puede usar y distribuir un conjunto común de recursos en una gran cantidad de ubicaciones. (Merino, 2019)</p>
 
 <H3>11. CONCLUSIONES</H3>
 <p align="justify">Realizada la investigación sobre las tarjetas de desarrollo  se llegó a las conclusiones sobre los objetivos específicos las cuales fueron:<br>
