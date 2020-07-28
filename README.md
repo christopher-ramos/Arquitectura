@@ -99,7 +99,7 @@ El modelo incluye una amplia gama de diferentes tipos de instancias y políticas
 - Puerto Gigabit Ethernet<br>
 - Cabecera de expansión GPIO de 40 pines<br>
 - Admite Mendel Linux (derivado de Debian)<br></p>
-
+<p align="center"><img src="img/googlecoral.png"/></p>
 <p align="justify"><b>Google Colab</b></p>
 <p align="justify">- IPython Notebook<br>
 - Celdas<br>
@@ -114,6 +114,7 @@ El modelo incluye una amplia gama de diferentes tipos de instancias y políticas
 - GPU<br>
 - CPU<br>
 - TPU<br></p>
+<p align="center"><img src="img/googlecolab.png"/></p>
 
 <H3>7. MAPA DE VARIABLES</H3>
 <p align="center"><img src="img/AmazonEC2.png"/></p>
