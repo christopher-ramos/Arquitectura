@@ -143,6 +143,24 @@ Los aceleradores como las TPU están diseñados para ofrecer un rendimiento muy 
 <p align="justify">Mediante la función de Python “timeit” se realizará que se guarde en la variable el tiempo que se demoro para poder ejecutar mediante la CPU nuestro código y para finalizar un print de lo que es el tiempo de demora en segundos.</p>
 <p align="center"><img src="img/c5.png"/></p>
 
+<p align="center"><b>TPU</b></p>
+<p align="justify"><b>1. Lectura de Datos</b></p>
+<p align="justify">Se hará una lectura de dos archivos que estarán dentro de una ruta, ubicada en Google Drive en la cuenta personal de quien lo compile al código.</p>
+<p align="center"><img src="img/c1.png"/></p>
+<p align="justify"><b>2. Acceso a datos en Google Drive (Importación y permisos)</b></p>
+<p align="justify">Se realizará una importación por medio de la ruta a Google Drive y la Unidad personal de nuestra cuenta. Generará un link el cual nos dará un código de autorización, el cual lo ingresaremos y deberá salirnos “Mounted at (ruta)” en caso de no tener ningún error.</p>
+<p align="center"><img src="img/c2.png"/></p>
+<p align="justify"><b>3. Reshape de datos para garantizar matrices (No vectores)</b></p>
+<p align="justify">Se pondrá los valores en múltiplos de 128 para que sirva en la TPU, debemos recordar que usamos los mismos valores para la configuracion de la CPU, por lo que vamos a realizar una comparacion de velocidades al ejecutar cada una de ellas. Recordar que esta puesto en 28x28 pixeles de escalas de grises.</p>
+<p align="center"><img src="img/c3.png"/></p>
+<p align="justify"><b>4.	Configuracion TPU</b></p>
+<p align="justify">Se aplica la versión de TensorFlow 2 para poder resolver la compilación de nuestro código y además se agregaran las 3 capas en 3 etapas de la librería Keras con diferentes valores en la capa Conv2D.</p>
+<p align="center"><img src="img/t1.png"/></p>
+<p align="center"><img src="img/t2.png"/></p>
+<p align="justify"><b>5.	Test de velocidad e impresión</b></p>
+<p align="justify">Mediante la función de Python “timeit” se realizará que se guarde en la variable el tiempo que se demoro para poder ejecutar mediante la TPU nuestro código y para finalizar un print de lo que es el tiempo de demora en segundos. Esto se realizara a nivel de un float de 32 bytes.</p>
+<p align="center"><img src="img/t3.png"/></p>
+
 <H3>9. DESCRIPCION DE PRERREQUISITOS Y CONFIGURACION</H3>
 <p align="justify">Se necesita una cuenta de Google colab donde nosotros podremos guardar nuestros códigos y permitir que nuestros compañeros puedan acceder y modificar nuestros diferentes códigos, la cual puede ser una cuenta institucional o una cuenta personal donde solo debemos llenar nuestra información y posteriormente elegir nuestro tipo de código que queremos realizar (Python 2 o Python3) nuestro tipo de procesador que queramos (CPU, GPU o TPU) y listo ya podemos usar Google colab al 100%</p>
 
