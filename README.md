@@ -155,8 +155,7 @@ Después de llegar a la conclusión de cada uno de los objetivos específicos se
 - Tener en cuenta al momento de realizar cualquier simulación en las TPU , GPU y las CPU se deben tomar en cuenta los lenguajes de programación elegidos para el componente en el que se necesita simularlo.<br></p>
 
 <H3>13. CRONOGRAMA</H3>
-<p align="center"><img src="img/Cronograma%20de%20gantt.png"/></p>
-<p align="justify"></p>
+<p align="center"><img src="img/cronograma.png"/></p>
 
 <H3>14. BIBLIOGRAFIA</H3>
 <p align="justify">-	https://www.adslzone.net/2017/04/06/tpu-el-chip-de-google-hasta-30-veces-mas-potente-que-una-cpu-y-gpu-normales/J.  Clerk  Maxwell, A Treatise on Electricity and Magnetism, 3rd ed., vol. 2. Oxford: Clarendon, 1892, pp.68-73.<br><br>
