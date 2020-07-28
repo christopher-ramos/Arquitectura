@@ -118,6 +118,7 @@ El modelo incluye una amplia gama de diferentes tipos de instancias y políticas
 
 <H3>7. MAPA DE VARIABLES</H3>
 <p align="center"><img src="img/variable1.png"/></p>
+<p align="center"><img src="img/variable2.png"/></p>
 
 <H3>8. EXPLICACION DEL CODIGO FUENTE</H3>
 <p align="justify">Nuestro proyecto no posee código fuente.</p>
