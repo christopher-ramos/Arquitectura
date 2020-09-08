@@ -1,2 +1,1 @@
-https://youtu.be/kZiqG2JP_2U  -> Video de la comparacion entre CPU y TPU, mediante Google Colab
-
+https://www.youtube.com/watch?v=EKKc3PksTMo   (Video alarma)
