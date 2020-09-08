@@ -123,6 +123,12 @@ Para que un programa pueda ejecutar las tareas para las que fue creado es necesa
 
 -Para el desarrollo exitoso de los ejemplos se realizó el uso de varios sensores, los cuales nos permitirán ingresar los valores por los puertos GPIO<br></p>
 
+Después de haber logrado los objetivos específicos se llegó a la conclusión que gracias a estos objetivos específicos se lograra llegar a la implementación y la realización de los objetivos generales.<br></p>
+
+-Los puertos GPIO presentes en la Raspberry Pi tienen diferentes características entre las cueles encontramos el no tener protección a las cargas eléctricas recibidas además de estar enumerados por su posición físicas o también pueden estar enumerados por la posición de un chip.<br></p>
+
+-Se logró conocer diferentes maneras de implementar la programación orientada a objetos con el ingreso y salida de datos por los puertos GPIO y gracias a esto se pudo implementar de manera exitosa los ejercicios planteados.<br></p>
+
 
 <H3>12. RECOMENDACIONES</H3>
 <p align="justify">-Durante el estudio de esta asignatura se mostró que los temas presentados en clase son solo el comienzo de lo que es la materia gracias a lo cual se puede aumentar el conocimiento  adquirido en el semestre.<br><br>
