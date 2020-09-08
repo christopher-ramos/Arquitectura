@@ -90,7 +90,7 @@ Puerto DSI para conectar una pantalla táctil</p></p>
 Salida de audio estéreo y vídeo compuesto</p>
 Micro-SD</p>
 Power-over-Ethernet (PoE)</p>
-<p align="center"><img src="img/googlecolab.png"/></p>
+<p align="center"><img src="img/pi.jpg"/></p>
 <p align="justify"><b>Python</b></p>
 Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código. Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.</p>
 Es administrado por la Python Software Foundation. Posee una licencia de código abierto, denominada Python Software Foundation License,</p>
