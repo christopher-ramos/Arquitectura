@@ -66,3 +66,4 @@ while (t!=0):
   si=alam.incendio(gas,humo,tem45,tem60)
   if si >= 1:
     alam.imprimir(si)
+    alam.foco()
