@@ -169,6 +169,65 @@ while (t!=0):</p>
     
 Se importa la libreia RPi.GPIO as GPIO y la libreria time despues se programa la tarjeta raspberry pi y se pone al pin o puerto GPIO #40 como nuestro puerto de salida luego se define la clase Alarma la cual tiene 5 atributos "i" como incendio, gass como el sensor de gas, h como el sensor de humo, tema como temperatura de 45, temb como temperatura de 60.</p>Se define la funcion menu en donde se encuentran las indicaciones de nuestro programa.</p>Se define la funcion gas:tiene una variable gass esta se activa a travez del GPIO #8,se define la funcion hunmo:tiene la variable h y se activa con el GPIO #10,se define la funcion tem45:tiene una variable tema la cual se activa con el GPIO #12,se define la funcion tem60:tiene una variable temb la cual se activa con el GPIO #11,se define la variable incendio la mas indispensable ya que su variable incluye a todas sus demas variables para poder saber si se activa o no la alarma de incendio.</p>Se define la variable imprimir la cual nos servira para enviar un mensaje que nos demuetre si se esta incendiando o no y nos muestra indicaciones para poder apagar a alarma.</p>Se define la variable foco el cual esta en nuestro GPIO de salida #40,en esta funcion se describe uma repeticion mientras el GPIO #37 no este presionado pues el GPIO #40 se prendera es deir el foco se prendera y ademas utilizamos time para simular la luz de una alarma.</p>En nuestro principal llamamos a todas las funciones, bjetos, atributos, metodos que tengamos y utilizamos un repetir para poder utilizar el programa las veces que queramos .
 
+<b><p align="justify">Sistema de riego.</p></b>
+# Importacion Librerias
+import RPi.GPIO as GPIO
+import time
+
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(3, GPIO.IN)
+GPIO.setup(5, GPIO.IN)
+GPIO.setup(7, GPIO.IN)
+GPIO.setup(8, GPIO.IN)
+GPIO.setup(15, GPIO.OUT)
+
+# Clase
+class bombaDeAgua:
+
+# Declarar funciones  
+  def menu(self):
+    print(" SISTEMA DE RIEGO ")
+    print(" PIN 3) Deposito de Agua (Marcado=Vacio) (Desmarcado=Lleno) ")
+    print(" PIN 5) Epoca Verano (Marcado=Verano) (Desmarcado=Restante del año) ")
+    print(" PIN 7) Dia/Noche (Marcado=Dia) (Desmarcado=Noche) ")
+    print(" PIN 8) Tierra (Marcado=Seca) (Desmarcado=Humeda) ")
+    print("\nSelecciones un pin:")
+    def leer(self,mensaje):
+        print(mensaje)
+    men1=float(input())
+    return men1
+  
+  def estadosCircuito(self):
+        V = GPIO.input(3) # Deposito de agua
+        S = GPIO.input(8) # Tipo de Tierra
+        D = GPIO.input(7) # Dia/Noche
+        R = GPIO.input(5) # Restricciones, verano.
+        
+        if (V == GPIO.HIGH): # Deposito de agua vacio
+            GPIO.output(15, GPIO.LOW)
+            print("No podra trabajar la bomba de agua, ya que su deposito de agua esta vacio")
+            time.sleep(0.3)
+        elif (V == GPIO.LOW and R == GPIO.HIGH and D == GPIO.LOW):
+            GPIO.output(15, GPIO.HIGH)
+            print("Bomba encendida")
+            time.sleep(0.3)
+        elif ((V == GPIO.LOW and R == GPIO.LOW and S == GPIO.HIGH and D == GPIO.HIGH) or (V == GPIO.LOW and R == GPIO.LOW and S == GPIO.HIGH and D == GPIO.LOW)):
+            GPIO.output(15, GPIO.HIGH)
+            print("Bomba encendida")
+            time.sleep(0.3)
+        else:
+            GPIO.output(15, GPIO.LOW)
+            print("No selecciono ninguna opcion valida")
+            time.sleep(0.3)
+
+            GPIO.cleanup()</p>
+
+# Instanciar / Crear nuevo objeto / Llamar</p>
+b = bombaDeAgua()</p>
+b.menu()</p>
+b.estadosCircuito()</p>
+
+
 
 <H3>9. DESCRIPCION DE PRERREQUISITOS Y CONFIGURACION</H3>
 <p align="justify">Se necesita conocimiento en programacion otientada a objetos en python al igual que un buen conocimineto y manipulacion de librerias para la realizacion del ejercicio</p>
