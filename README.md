@@ -92,14 +92,12 @@ Micro-SD</p>
 Power-over-Ethernet (PoE)</p>
 <p align="center"><img src="img/pi.jpg"/></p>
 <p align="justify"><b>Python</b></p>
-Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código. Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.</p>
+Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código. Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.(Documentation, 2020)</p>
 Es administrado por la Python Software Foundation. Posee una licencia de código abierto, denominada Python Software Foundation License,</p>
 <H3>7. MAPA DE VARIABLES</H3>
 <p align="center"><img src="img/variable1.png"/></p>
 <H3>8. EXPLICACION DEL CODIGO FUENTE</H3>
 <b><p align="justify">Alarma de incendios.</p></b>
-
-
 <H3>9. DESCRIPCION DE PRERREQUISITOS Y CONFIGURACION</H3>
 <p align="justify">Se necesita conocimiento en programacion otientada a objetos en python al igual que un buen conocimineto y manipulacion de librerias para la realizacion del ejercicio</p>
 
@@ -108,12 +106,12 @@ Es administrado por la Python Software Foundation. Posee una licencia de código
 <p align="justify">Es un paradigma de programación que viene a innovar la forma de obtener resultados. Los objetos manipulan los datos de entrada para la obtención de datos de salida específicos, donde cada objeto ofrece una funcionalidad especial.</p>
 Muchos de los objetos prediseñados de los lenguajes de programación actuales permiten la agrupación en bibliotecas o librerías, sin embargo, muchos de estos lenguajes permiten al usuario la creación de sus propias bibliotecas.</p>
 Está basada en varias técnicas del sexenio: herencia, cohesión, abstracción, polimorfismo, acoplamiento y encapsulamiento.</p>
-Su uso se popularizó a principios de la década de 1990. En la actualidad, existe una gran variedad de lenguajes de programación que soportan la orientación a objetos.</p>
+Su uso se popularizó a principios de la década de 1990. En la actualidad, existe una gran variedad de lenguajes de programación que soportan la orientación a objetos.(Coad, P; Yourdon, E. (1991))</p>
 <b>GPIO</b>
 <p align="justify">Es un pin genérico en un chip, cuyo comportamiento (incluyendo si es un pin de entrada o salida) se puede controlar (programar) por el usuario en tiempo de ejecución.
 Los pines GPIO no tienen ningún propósito especial definido, y no se utilizan de forma predeterminada. La idea es que a veces, para el diseño de un sistema completo que utiliza el chip podría ser útil contar con un puñado de líneas digitales de control adicionales, y tenerlas a disposición ahorra el tiempo de tener que organizar circuitos adicionales para proporcionarlos. Por ejemplo, los chips Realtek ALC260 (códec de audio) tienen 8 pines GPIO, que quedan sin utilizar de forma predeterminada. Algunos integradores de sistemas (Acer Inc. laptops) que emplea el ALC260 utilizan la primera GPIO (GPIO0) para encender el amplificador utilizado para los altavoces internos y el conector de auriculares del ordenador portátil.(Merino, 2019)</p>
 <p align="justify">Edge TPU complementa las CPU, GPU y FPGA, además de otras soluciones ASIC, a fin de ejecutar la IA en el perímetro.</p>
-<b>E/S datos</b>
+<b>E/S datos</b></p>
 Para que un programa pueda ejecutar las tareas para las que fue creado es necesario que se pueda comunicar con los usuarios para capturar la información y presentar los resultados. También debe poder almacenar y recuperar información de dispositivos de almacenamiento permanente para preservarla ya que el contenido de las variables se pierde una vez que la ejecución del programa termina. El contenido de los dispositivos de almacenamiento permanente se organiza en unidades llamadas archivos que los programas abren para poder leer o escribir información. El mecanismo para interactuar con un usuario se llama interfaz de usuario y puede ser gráfica o de texto.</p>
 <H3>12. RECOMENDACIONES</H3>
 <p align="justify">-Durante el estudio de esta asignatura se mostró que los temas presentados en clase son solo el comienzo de lo que es la materia gracias a lo cual se puede aumentar el conocimiento  adquirido en el semestre.<br><br>
@@ -131,6 +129,10 @@ Para que un programa pueda ejecutar las tareas para las que fue creado es necesa
 - Moya, F., 2020. Entradas Y Salidas Digitales · Taller De Raspberry Pi. [online] Franciscomoya.gitbooks.io. Available at: <https://franciscomoya.gitbooks.io/taller-de-raspberry-pi/content/es/elems/gpio.html> [Accessed 22 August 2020].<br><br>
 -	Diec.unizar.es. 2020. [online] Available at: <http://diec.unizar.es /~tpollan/libro/Apuntes/ digap8.pdf> <br><br>
 -	P-Accessed 22 August 2020].“Medir distancia con Arduino y sensor de ultrasonidos HC-SR04.” [Online]. Available: https://www.luisllamas.es/medir-distancia-con-arduino-y-sensor-de-ultrasonidos-hc-sr04/. [Accessed: 23-Jul-2020]. <br><br>
+  Coad, P; Yourdon, E. (1991). Prentice-Hall International editions, ed. Object-oriented Design</p>
+  Brookshear, J. Glenn (2012). Computer Science: An overview [Introducción a la computación] (11.ª edición). Madrid, España: Pearson Educación, S. A. p. 704.</p>
+  Documentation, P. (18 de Agosto de 2020). python.org. Obtenido de Python : https://es.wikipedia.org/wiki/Python</p>
+GPIO. (7 de Agosto de 2019). Obtenido de https://es.wikipedia.org/wiki/GPIO#:~:text=GPIO%20(General%20Purpose%20Input%2FOutput,usuario%20en%20tiempo%20de%20ejecuci%C3%B3n.</p>
 -	“Medir inclinación con Arduino y sensor tilt SW- 520D.” [Online]. Available: https://www.luisllamas.es/medir-inclinacion-con-arduino-y-sensor-tilt-sw-520d/#:~:text=Un sensor de inclinación es,partir de una cierta inclinación. [Accessed: 23-Jul-2020].<br><br>
   
 <H3>15. ANEXOS</H3>
