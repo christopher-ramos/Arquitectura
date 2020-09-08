@@ -171,37 +171,37 @@ Se importa la libreia RPi.GPIO as GPIO y la libreria time despues se programa la
 
 <b><p align="justify">Sistema de riego.</p></b>
 # Importacion Librerias
-import RPi.GPIO as GPIO
-import time
+import RPi.GPIO as GPIO</p>
+import time</p>
 
-GPIO.setmode(GPIO.BOARD)
-GPIO.setup(3, GPIO.IN)
-GPIO.setup(5, GPIO.IN)
-GPIO.setup(7, GPIO.IN)
-GPIO.setup(8, GPIO.IN)
-GPIO.setup(15, GPIO.OUT)
+GPIO.setmode(GPIO.BOARD)</p>
+GPIO.setup(3, GPIO.IN)</p>
+GPIO.setup(5, GPIO.IN)</p>
+GPIO.setup(7, GPIO.IN)</p>
+GPIO.setup(8, GPIO.IN)</p>
+GPIO.setup(15, GPIO.OUT)</p>
 
 # Clase
-class bombaDeAgua:
+class bombaDeAgua:</p>
 
 # Declarar funciones  
-  def menu(self):
-    print(" SISTEMA DE RIEGO ")
-    print(" PIN 3) Deposito de Agua (Marcado=Vacio) (Desmarcado=Lleno) ")
-    print(" PIN 5) Epoca Verano (Marcado=Verano) (Desmarcado=Restante del año) ")
-    print(" PIN 7) Dia/Noche (Marcado=Dia) (Desmarcado=Noche) ")
-    print(" PIN 8) Tierra (Marcado=Seca) (Desmarcado=Humeda) ")
-    print("\nSelecciones un pin:")
-    def leer(self,mensaje):
-        print(mensaje)
-    men1=float(input())
-    return men1
+  def menu(self):</p>
+    print(" SISTEMA DE RIEGO ")</p>
+    print(" PIN 3) Deposito de Agua (Marcado=Vacio) (Desmarcado=Lleno) ")</p>
+    print(" PIN 5) Epoca Verano (Marcado=Verano) (Desmarcado=Restante del año) ")</p>
+    print(" PIN 7) Dia/Noche (Marcado=Dia) (Desmarcado=Noche) ")</p>
+    print(" PIN 8) Tierra (Marcado=Seca) (Desmarcado=Humeda) ")</p>
+    print("\nSelecciones un pin:")</p>
+    def leer(self,mensaje):</p>
+        print(mensaje)</p>
+    men1=float(input())</p>
+    return men1</p>
   
-  def estadosCircuito(self):
-        V = GPIO.input(3) # Deposito de agua
-        S = GPIO.input(8) # Tipo de Tierra
-        D = GPIO.input(7) # Dia/Noche
-        R = GPIO.input(5) # Restricciones, verano.
+  def estadosCircuito(self):</p>
+        V = GPIO.input(3) # Deposito de agua</p>
+        S = GPIO.input(8) # Tipo de Tierra</p>
+        D = GPIO.input(7) # Dia/Noche</p>
+        R = GPIO.input(5) # Restricciones, verano.</p>
         
         if (V == GPIO.HIGH): # Deposito de agua vacio
             GPIO.output(15, GPIO.LOW)
