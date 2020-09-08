@@ -195,7 +195,7 @@ Después de haber logrado los objetivos específicos se llegó a la conclusión 
 -Conocer los distintos tipos de paradigmas de programación que existen y en especial en los lenguajes de programación que son más utilizados en la actualidad.<br></p>
 
 <H3>13. CRONOGRAMA</H3>
-<p align="center"><img src="img/cronograma.png"/></p>
+<p align="center"><img src="img/cronograma (2).jpeg"/></p>
 
 <H3>14. BIBLIOGRAFIA</H3>
 <p align="justify">-	JORGE CACHO HERNÁNDEZ, «Raspberry Pi: tutoriales Servidor web, ownCloud y XBMC.,» 27 Enero 2008. [En línea]. Available: file:///C:/Users/home/Downloads/102190284-Raspberry-Pi-tutoriales-servidor-web-ownCloud-y-XBMC.pdf<br><br>
