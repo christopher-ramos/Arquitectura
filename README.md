@@ -114,7 +114,7 @@ Los pines GPIO no tienen ningún propósito especial definido, y no se utilizan 
 <b>E/S datos</b></p>
 Para que un programa pueda ejecutar las tareas para las que fue creado es necesario que se pueda comunicar con los usuarios para capturar la información y presentar los resultados. También debe poder almacenar y recuperar información de dispositivos de almacenamiento permanente para preservarla ya que el contenido de las variables se pierde una vez que la ejecución del programa termina. El contenido de los dispositivos de almacenamiento permanente se organiza en unidades llamadas archivos que los programas abren para poder leer o escribir información. El mecanismo para interactuar con un usuario se llama interfaz de usuario y puede ser gráfica o de texto.</p>
 <H3>11. CONCLUSIONES</H3>
-<p align="justify">-Realizada la investigación sobre los puertos de entrada y salida en la Raspberry Pi  y además de la realización de los ejercicios propuestos se llegó a las siguientes conclusiones:<br><br>
+<p align="justify">Realizada la investigación sobre los puertos de entrada y salida en la Raspberry Pi  y además de la realización de los ejercicios propuestos se llegó a las siguientes conclusiones:<br><br>
 -Mediante la investigación y la implementación de los ejercicios planteados se logró observar el manejo y la nuevas maneras de realizar el ingreso y salida de datos por los puertos GPIO<br></p>
 
 -Los simuladores de entrada y salida de datos para la  Raspberry Pi tienen con base el uso de los puertos GPIO mediante los cuales pueden mandar y recibir impulsos eléctricos los cuales nos ayudan a generar  programas de manera funcional.<br></p>
