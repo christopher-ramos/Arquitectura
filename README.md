@@ -98,6 +98,78 @@ Es administrado por la Python Software Foundation. Posee una licencia de código
 <p align="center"><img src="img/variable1.png"/></p>
 <H3>8. EXPLICACION DEL CODIGO FUENTE</H3>
 <b><p align="justify">Alarma de incendios.</p></b>
+import RPi.GPIO as GPIO</p>
+import time</p>
+
+GPIO.setmode(GPIO.BOARD)</p>
+GPIO.setup(40, GPIO.OUT)</p>
+
+class Alarma:</p>
+  i=0</p></p>
+  gass=0</p>
+  h=0</p>
+  tema=0</p>
+  temb=0</p>
+  
+  def menu(self):</p>
+    print("\nIndicaciones")</p>
+    print("8) Sensor de gas")</p>
+    print("10) Sensor de humo")</p>
+    print("12) Temperatura 45")</p>
+    print("11) Temperatura 60")</p>
+  
+  def gas(self):</p>
+    gass=0</p>
+    if GPIO.input(8) == GPIO.HIGH:</p>
+      gass=1</p>
+    return gass</p>
+  def humo(self):</p>
+    h=0</p>
+    if GPIO.input(10) == GPIO.HIGH:</p>
+      h=1</p>
+    return h</p>
+  def tem45(self):</p>
+    tema=0</p>
+    if GPIO.input(12) == GPIO.HIGH:</p>
+      tema=1</p>
+    return tema</p>
+  def tem60(self):</p>
+    temb=0</p>
+    if GPIO.input(11) == GPIO.HIGH:</p>
+      temb=1</p>
+    return temb</p>
+  def incendio(self,gass,h,tema,temb):</p>
+    i = temb + gass*tema + gass*h + tema*h</p>
+    return i</p>
+  
+  def imprimir(self,a):</p>
+    print("\n\nSE INENDIA, AUXILIO¡¡")</p>
+    print("\n\nApagar Alarma pin 37")</p>
+    print("Primero desactive los anteriores pins")</p>
+   
+  def foco(self):</p>
+    while (GPIO.input(37) != GPIO.HIGH):</p></p>
+      GPIO.output(40, True)</p>
+      time.sleep(0.5)</p>
+      GPIO.output(40, False)</p>
+      time.sleep(0.5)</p>
+     
+t=1  </p>  
+
+alam=Alarma()</p>
+alam.menu()</p>
+while (t!=0):</p>
+  gas=alam.gas()</p>
+  humo=alam.humo()</p>
+  tem45=alam.tem45()</p>
+  tem60=alam.tem60()</p>
+  si=alam.incendio(gas,humo,tem45,tem60)</p>
+  if si >= 1:</p>
+    alam.imprimir(si)</p>
+    
+Se importa la libreia RPi.GPIO as GPIO y la libreria time despues se programa la tarjeta raspberry pi y se pone al pin o puerto GPIO #40 como nuestro puerto de salida luego se define la clase Alarma la cual tiene 5 atributos "i" como incendio, gass como el sensor de gas, h como el sensor de humo, tema como temperatura de 45, temb como temperatura de 60.</p>Se define la funcion menu en donde se encuentran las indicaciones de nuestro programa.</p>Se define la funcion gas:tiene una variable gass esta se activa a travez del GPIO #8,se define la funcion hunmo:tiene la variable h y se activa con el GPIO #10,se define la funcion tem45:tiene una variable tema la cual se activa con el GPIO #12,se define la funcion tem60:tiene una variable temb la cual se activa con el GPIO #11,se define la variable incendio la mas indispensable ya que su variable incluye a todas sus demas variables para poder saber si se activa o no la alarma de incendio.</p>Se define la variable imprimir la cual nos servira para enviar un mensaje que nos demuetre si se esta incendiando o no y nos muestra indicaciones para poder apagar a alarma.</p>Se define la variable foco el cual esta en nuestro GPIO de salida #40,en esta funcion se describe uma repeticion mientras el GPIO #37 no este presionado pues el GPIO #40 se prendera es deir el foco se prendera y ademas utilizamos time para simular la luz de una alarma.</p>En nuestro principal llamamos a todas las funciones, bjetos, atributos, metodos que tengamos y utilizamos un repetir para poder utilizar el programa las veces que queramos .
+
+
 <H3>9. DESCRIPCION DE PRERREQUISITOS Y CONFIGURACION</H3>
 <p align="justify">Se necesita conocimiento en programacion otientada a objetos en python al igual que un buen conocimineto y manipulacion de librerias para la realizacion del ejercicio</p>
 
