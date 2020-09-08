@@ -96,73 +96,25 @@ Python es un lenguaje de programación interpretado cuya filosofía hace hincapi
 Es administrado por la Python Software Foundation. Posee una licencia de código abierto, denominada Python Software Foundation License,</p>
 <H3>7. MAPA DE VARIABLES</H3>
 <p align="center"><img src="img/variable1.png"/></p>
-<p align="center"><img src="img/variable2.png"/></p>
-
 <H3>8. EXPLICACION DEL CODIGO FUENTE</H3>
-<p align="justify">Se hara un analisis en la rapidez que se genera en Google Colaba partir de la ejecución por medio de CPU y TPU.</p>
-<p align="center"><b>CPU</b></p>
-<p align="justify"><b>1. Lectura de Datos</b></p>
-<p align="justify">Se hará una lectura de dos archivos que estarán dentro de una ruta, ubicada en Google Drive en la cuenta personal de quien lo compile al código.</p>
-<p align="center"><img src="img/c1.png"/></p>
-<p align="justify"><b>2. Acceso a datos en Google Drive (Importación y permisos)</b></p>
-<p align="justify">Se realizará una importación por medio de la ruta a Google Drive y la Unidad personal de nuestra cuenta. Generará un link el cual nos dará un código de autorización, el cual lo ingresaremos y deberá salirnos “Mounted at (ruta)” en caso de no tener ningún error.</p>
-<p align="center"><img src="img/c2.png"/></p>
-<p align="justify"><b>3. Reshape de datos para garantizar matrices (No vectores)</b></p>
-<p align="justify">Se pondrá los valores en múltiplos de 128 para que sirva en la TPU, pero en este caso deberemos ubicar de igual manera los valores en la CPU, para no generar un favoritismo al momento de realizar la compilación y la comparación entre cada uno de los hardware.</p>
-<p align="center"><img src="img/c3.png"/></p>
-<p align="justify"><b>4.	Creación del modelo con Tensor Flow 2 + Librería Keras</b></p>
-<p align="justify">Se genera 3 capas, en 3 fases diferentes las cuales llevaran ciertos valores. En este caso será Normalización, Conv2D, MaxPooling2D, Dropout. El cual Conv2D llevara diferentes valores en cada una de las fases. Para al final aplanar mediante Flatten el numero de filtros de Dense, al igual que en la salida Dropout.</p>
-<p align="center"><img src="img/c4.png"/></p>
-<p align="justify"><b>5.	Test de velocidad e impresión</b></p>
-<p align="justify">Mediante la función de Python “timeit” se realizará que se guarde en la variable el tiempo que se demoro para poder ejecutar mediante la CPU nuestro código y para finalizar un print de lo que es el tiempo de demora en segundos.</p>
-<p align="center"><img src="img/c5.png"/></p>
+<b><p align="justify">Alarma de incendios.</p></b>
 
-<p align="center"><b>TPU</b></p>
-<p align="justify"><b>1. Lectura de Datos</b></p>
-<p align="justify">Se hará una lectura de dos archivos que estarán dentro de una ruta, ubicada en Google Drive en la cuenta personal de quien lo compile al código.</p>
-<p align="center"><img src="img/c1.png"/></p>
-<p align="justify"><b>2. Acceso a datos en Google Drive (Importación y permisos)</b></p>
-<p align="justify">Se realizará una importación por medio de la ruta a Google Drive y la Unidad personal de nuestra cuenta. Generará un link el cual nos dará un código de autorización, el cual lo ingresaremos y deberá salirnos “Mounted at (ruta)” en caso de no tener ningún error.</p>
-<p align="center"><img src="img/c2.png"/></p>
-<p align="justify"><b>3. Reshape de datos para garantizar matrices (No vectores)</b></p>
-<p align="justify">Se pondrá los valores en múltiplos de 128 para que sirva en la TPU, debemos recordar que usamos los mismos valores para la configuracion de la CPU, por lo que vamos a realizar una comparacion de velocidades al ejecutar cada una de ellas. Recordar que esta puesto en 28x28 pixeles de escalas de grises.</p>
-<p align="center"><img src="img/c3.png"/></p>
-<p align="justify"><b>4.	Configuracion TPU</b></p>
-<p align="justify">Se aplica la versión de TensorFlow 2 para poder resolver la compilación de nuestro código y además se agregaran las 3 capas en 3 etapas de la librería Keras con diferentes valores en la capa Conv2D.</p>
-<p align="center"><img src="img/t1.png"/></p>
-<p align="center"><img src="img/t2.png"/></p>
-<p align="justify"><b>5.	Test de velocidad e impresión</b></p>
-<p align="justify">Mediante la función de Python “timeit” se realizará que se guarde en la variable el tiempo que se demoro para poder ejecutar mediante la TPU nuestro código y para finalizar un print de lo que es el tiempo de demora en segundos. Esto se realizara a nivel de un float de 32 bytes.</p>
-<p align="center"><img src="img/t3.png"/></p>
 
 <H3>9. DESCRIPCION DE PRERREQUISITOS Y CONFIGURACION</H3>
-<p align="justify">Se necesita una cuenta de Google colab donde nosotros podremos guardar nuestros códigos y permitir que nuestros compañeros puedan acceder y modificar nuestros diferentes códigos, la cual puede ser una cuenta institucional o una cuenta personal donde solo debemos llenar nuestra información y posteriormente elegir nuestro tipo de código que queremos realizar (Python 2 o Python3) nuestro tipo de procesador que queramos (CPU, GPU o TPU) y listo ya podemos usar Google colab al 100%</p>
+<p align="justify">Se necesita conocimiento en programacion otientada a objetos en python al igual que un buen conocimineto y manipulacion de librerias para la realizacion del ejercicio</p>
 
 <H3>10. APORTACIONES</H3>
-<b>SOM</b>
-<p align="justify">Coral System-on-Module (SoM) es un sistema completamente integrado que lo ayuda a construir dispositivos integrados que exigen inferencias de aprendizaje automático (ML) rápidas. Contiene el sistema en chip (SoC) iMX 8M de NXP, memoria eMMC, LPDDR4 RAM, Wi-Fi y Bluetooth, pero su potencia única proviene del coprocesador Edge TPU de Google para la inferencia de aprendizaje automático de alta velocidad. (Google Coral, 2019)</p>
-<b>Edge TPU</b>
-<p align="justify">Edge TPU permite desplegar inferencias de aprendizaje automático de alta calidad en el perímetro por medio de diversos productos de producción y prototipado de Coral.</p>
-<p align="justify">La plataforma de aprendizaje automático en el perímetro de Coral refuerza las TPU de Google Cloud y Cloud IoT para proporcionar una infraestructura completa (de hardware y software, y de la nube al perímetro) que facilita el despliegue de las soluciones basadas en IA de los clientes. La plataforma de Coral no solo incluye el entorno de programación de código abierto TensorFlow Lite, sino que también proporciona un kit de herramientas para desarrolladores que te permite compilar tus propios modelos o volver a preparar varios modelos de IA de Google para Edge TPU. De esta manera, se aúnan nuestros conocimientos avanzados tanto en IA como en hardware. (Merino, 2019)</p>
+<b>Programacion orientada a objetos </b>
+<p align="justify">Es un paradigma de programación que viene a innovar la forma de obtener resultados. Los objetos manipulan los datos de entrada para la obtención de datos de salida específicos, donde cada objeto ofrece una funcionalidad especial.</p>
+Muchos de los objetos prediseñados de los lenguajes de programación actuales permiten la agrupación en bibliotecas o librerías, sin embargo, muchos de estos lenguajes permiten al usuario la creación de sus propias bibliotecas.</p>
+Está basada en varias técnicas del sexenio: herencia, cohesión, abstracción, polimorfismo, acoplamiento y encapsulamiento.</p>
+Su uso se popularizó a principios de la década de 1990. En la actualidad, existe una gran variedad de lenguajes de programación que soportan la orientación a objetos.</p>
+<b>GPIO</b>
+<p align="justify">Es un pin genérico en un chip, cuyo comportamiento (incluyendo si es un pin de entrada o salida) se puede controlar (programar) por el usuario en tiempo de ejecución.
+Los pines GPIO no tienen ningún propósito especial definido, y no se utilizan de forma predeterminada. La idea es que a veces, para el diseño de un sistema completo que utiliza el chip podría ser útil contar con un puñado de líneas digitales de control adicionales, y tenerlas a disposición ahorra el tiempo de tener que organizar circuitos adicionales para proporcionarlos. Por ejemplo, los chips Realtek ALC260 (códec de audio) tienen 8 pines GPIO, que quedan sin utilizar de forma predeterminada. Algunos integradores de sistemas (Acer Inc. laptops) que emplea el ALC260 utilizan la primera GPIO (GPIO0) para encender el amplificador utilizado para los altavoces internos y el conector de auriculares del ordenador portátil.(Merino, 2019)</p>
 <p align="justify">Edge TPU complementa las CPU, GPU y FPGA, además de otras soluciones ASIC, a fin de ejecutar la IA en el perímetro.</p>
-
-<b>Python</b>
-<p align="justify">Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código. Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.Es administrado por la Python Software Foundation. Posee una licencia de código abierto, denominada Python Software Foundation License, que es compatible con la Licencia pública general de GNU a partir de la versión 2.1.1, e incompatible en ciertas versiones anteriores(Knowlton, Jim (2009)).</p>
-
-<b>Edge Computing</b>
-<p align="justify">El edge computing es un tipo de informática que ocurre en la ubicación física del usuario, de la fuente de datos, o cerca de ellas. Al establecer servicios de computación cerca de esas ubicaciones, los usuarios obtienen servicios más rápidos y confiables, y las empresas aprovechan la flexibilidad del cloud computing híbrido. Con el edge computing, una empresa puede usar y distribuir un conjunto común de recursos en una gran cantidad de ubicaciones. (Merino, 2019)</p>
-
-<H3>11. CONCLUSIONES</H3>
-<p align="justify">Realizada la investigación sobre los puertos de entrada y salida en la Raspberry Pi  y además de la realización de los ejercicios propuestos se llegó a las siguientes conclusiones<br>
--	Mediante la investigación y la implementación de los ejercicios planteados se logró observar el manejo y la nuevas maneras de realizar el ingreso y salida de datos por los puertos GPIO<br>
--	Los simuladores de entrada y salida de datos para la  Raspberry Pi tienen con base el uso de los puertos GPIO mediante los cuales pueden mandar y recibir impulsos eléctricos los cuales nos ayudan a generar  programas de manera funcional.<br>
--	Se implementó de manera exitosa los ejercicios planteados  cada uno con su respectiva simulación<br><br>
--	Para el desarrollo exitoso de los ejemplos se realizó el uso de varios sensores, los cuales nos permitirán ingresar los valores por los puertos GPIO<br><br>
-Las conclusiones planteadas son de cada objetivo específico respectivamente los cuales ya fueron mostrados en un paso anterior.<br>
-Después de haber logrado los objetivos específicos se llegó a la conclusión que gracias a estos objetivos específicos se lograra llegar a la implementación y la realización de los objetivos generales.<br>
-- Los puertos GPIO presentes en la Raspberry Pi tienen diferentes características entre las cueles encontramos el no tener protección a las cargas eléctricas recibidas además de estar enumerados por su posición físicas o también pueden estar enumerados por la posición de un chip.</p>
--Se logró conocer diferentes maneras de implementar la programación orientada a objetos con el ingreso y salida de datos por los puertos GPIO y gracias a esto se pudo implementar de manera exitosa los ejercicios planteados.</p>
-
+<b>E/S datos</b>
+Para que un programa pueda ejecutar las tareas para las que fue creado es necesario que se pueda comunicar con los usuarios para capturar la información y presentar los resultados. También debe poder almacenar y recuperar información de dispositivos de almacenamiento permanente para preservarla ya que el contenido de las variables se pierde una vez que la ejecución del programa termina. El contenido de los dispositivos de almacenamiento permanente se organiza en unidades llamadas archivos que los programas abren para poder leer o escribir información. El mecanismo para interactuar con un usuario se llama interfaz de usuario y puede ser gráfica o de texto.</p>
 <H3>12. RECOMENDACIONES</H3>
 <p align="justify">-Durante el estudio de esta asignatura se mostró que los temas presentados en clase son solo el comienzo de lo que es la materia gracias a lo cual se puede aumentar el conocimiento  adquirido en el semestre.<br><br>
 -Conocer las diferentes formas en las cuales se puede hacer el ingreso y la salida de datos atreves de los puertos GPIO y mostrar la salida de la información mediante controladores o diferentes tipos de hardware adicional.<br><br>
