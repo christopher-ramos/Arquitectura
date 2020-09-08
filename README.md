@@ -113,6 +113,17 @@ Los pines GPIO no tienen ningún propósito especial definido, y no se utilizan 
 <p align="justify">Edge TPU complementa las CPU, GPU y FPGA, además de otras soluciones ASIC, a fin de ejecutar la IA en el perímetro.</p>
 <b>E/S datos</b></p>
 Para que un programa pueda ejecutar las tareas para las que fue creado es necesario que se pueda comunicar con los usuarios para capturar la información y presentar los resultados. También debe poder almacenar y recuperar información de dispositivos de almacenamiento permanente para preservarla ya que el contenido de las variables se pierde una vez que la ejecución del programa termina. El contenido de los dispositivos de almacenamiento permanente se organiza en unidades llamadas archivos que los programas abren para poder leer o escribir información. El mecanismo para interactuar con un usuario se llama interfaz de usuario y puede ser gráfica o de texto.</p>
+<H3>11. CONCLUSIONES</H3>
+<p align="justify">-Realizada la investigación sobre los puertos de entrada y salida en la Raspberry Pi  y además de la realización de los ejercicios propuestos se llegó a las siguientes conclusiones:<br><br>
+-Mediante la investigación y la implementación de los ejercicios planteados se logró observar el manejo y la nuevas maneras de realizar el ingreso y salida de datos por los puertos GPIO<br></p>
+
+-Los simuladores de entrada y salida de datos para la  Raspberry Pi tienen con base el uso de los puertos GPIO mediante los cuales pueden mandar y recibir impulsos eléctricos los cuales nos ayudan a generar  programas de manera funcional.<br></p>
+
+-Se implementó de manera exitosa los ejercicios planteados  cada uno con su respectiva simulación<br></p>
+
+-Para el desarrollo exitoso de los ejemplos se realizó el uso de varios sensores, los cuales nos permitirán ingresar los valores por los puertos GPIO<br></p>
+
+
 <H3>12. RECOMENDACIONES</H3>
 <p align="justify">-Durante el estudio de esta asignatura se mostró que los temas presentados en clase son solo el comienzo de lo que es la materia gracias a lo cual se puede aumentar el conocimiento  adquirido en el semestre.<br><br>
 -Conocer las diferentes formas en las cuales se puede hacer el ingreso y la salida de datos atreves de los puertos GPIO y mostrar la salida de la información mediante controladores o diferentes tipos de hardware adicional.<br><br>
